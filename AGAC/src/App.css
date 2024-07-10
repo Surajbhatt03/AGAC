@@ -85,3 +85,9 @@
   padding: 20px 0;
   text-align: center;
 }
+
+.hero-image {
+  background-image: url('./images/Home1.png');
+  background-size: cover;
+  height: 300px;
+}

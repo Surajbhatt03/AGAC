@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
             <h1>WELCOME TO OUR STATE-OF-THE-ART AQUAPONICS FACILITY</h1>
           </div>
           <div className="hero-image">
-            {/* Image of the aquaponics facility */}
+            {<img src="./images/Home1.png" alt=" Image" />}
           </div>
         </section>
         <section className="features">
