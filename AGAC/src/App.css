@@ -1,0 +1,93 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.main {
+  padding: 40px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.features {
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.feature {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feature img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.hero-image {
+  background-image: url('./images/Home1.png');
+  background-size: cover;
+  height: 300px;
+}
