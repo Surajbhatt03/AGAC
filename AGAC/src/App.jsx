@@ -44,11 +44,11 @@ function App() {
             </div>
             <div className="feature">
               <h3>Automated Monitoring System</h3>
-              <img src="automated-monitoring-system.jpg" alt="Automated Monitoring System" />
+              <img src="./images/home3.png" alt="Automated Monitoring System" />
             </div>
             <div className="feature">
               <h3>Data Analytics and Visualization</h3>
-              <img src="data-analytics-visualization.jpg" alt="Data Analytics and Visualization" />
+              <img src="./images/home4.png" alt="Data Analytics and Visualization" />
             </div>
           </div>
         </section>
