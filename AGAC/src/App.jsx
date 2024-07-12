@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   return (
+    //First-block-Home
+    <div class="first-block-home">
     <div className="container">
       <header className="header">
         <div className="logo">Logo</div>
@@ -38,7 +40,7 @@ function App() {
           <div className="features-grid">
             <div className="feature">
               <h3>Sustainable Practices</h3>
-              <img src="sustainable-practices.jpg" alt="Sustainable Practices" />
+              <img src="./images/home2.png" alt="Sustainable Practices" />
             </div>
             <div className="feature">
               <h3>Automated Monitoring System</h3>
@@ -50,7 +52,63 @@ function App() {
             </div>
           </div>
         </section>
-      </main>
+        </main>
+        </div>
+        //First-block-Home
+
+
+         //Second-block-home
+           <div class="second-block-home">
+           <div className="container">
+      <div className="imageContainer">
+        <img
+          src="./images/home5.png"
+          alt="Fish Tank"
+          className="mainImage"
+        />
+        <img
+          src="./images/home6.png"
+          alt="Plants"
+          className="subImage"
+        />
+      </div>
+      <div className="textContainer">
+        <h4 className="introduction">Our Introductions</h4>
+        <h1 className="title">Aquatech genomic agriculture center</h1>
+        <p className="subtitle">
+          Our fish tanks and biofilters work in harmony to provide nutrient-rich water for the plants
+        </p>
+        <p className="description">
+          It represents a holistic approach to food production, combining the best aspects of aquaculture and hydroponics. This system leverages the natural biological processes of fish and plants to create a closed-loop, efficient, and environmentally friendly method of food production.
+        </p>
+        <div className="features">
+          <div className="featureItem">
+            <img
+              src="./images/VegetableInBasketIcon.svg"
+              alt="Chemical Free"
+              className="featureIcon"
+            />
+            <p>Chemical free vegetables</p>
+          </div>
+          <div className="featureItem">
+            <img
+              src="./images/ResearchIcon.svg"
+              alt="Genomic Research"
+              className="featureIcon"
+            />
+            <p>Genomic Research</p>
+          </div>
+        </div>
+        <ul className="list">
+          <li>Lorem Ipsum is not simply random text.</li>
+          <li>Making this the first true generator on the internet.</li>
+        </ul>
+        <button className="button">Discover More</button>
+      </div>
+    </div>
+           </div>
+        //second-block-home
+      
       <footer className="footer">
         {/* Footer content */}
       </footer>
