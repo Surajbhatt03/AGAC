@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.footer {
+    height: 581px;
+    color: white;
+    font-family: 'Manrope';
+}
+
+.footer-1 {
+    height: 511px;
+    background-color: #24231D;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px;
+}
+
+.footer-2 {
+    justify-content: center;
+    gap: 100px;
+    font-size: small;
+    display: flex;
+    height: 30px;
+    background-color: #1F1E17;
+}
+
+.f4 {
+    position: relative;
+}
+
+.f3 {
+    position: relative;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+}
+
+.f1 {
+    position: relative;
+    width: 300px;
+    height: 110px;
+    /* AGAC offers comprehensive support for all platform users. */
+    display: flex;
+    flex-direction: column;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+color: #A5A49A;
+
+
+}
+
+.head-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #878680;
+    align-items: start;
+
+    >li {
+        list-style: none;
+        font-size: 12px;
+
+    }
+}
+
+.footer-2 {
+    padding: 10px 0 0 0;
+}
+
+.eleme {
+    
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
