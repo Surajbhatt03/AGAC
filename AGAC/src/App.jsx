@@ -21,6 +21,7 @@ function App() {
                 <img src="./images/Home1.png" alt="Image" />
               </div>
             </section>
+            
             <section className="features">
               <h2>Cultivating a greener Future.</h2>
               <div className="disbut">
@@ -44,6 +45,7 @@ function App() {
                 </div>
               </div>
             </section>
+            
           </main>
         </div>
       </div>
