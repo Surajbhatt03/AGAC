@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 .footer {
-    height: 581px;
+    /* height: 581px; */
     color: white;
     font-family: 'Manrope';
+   position: relative;
+   padding: 0px;  
 }
 
 .footer-1 {
-    height: 511px;
+    /* height: 511px; */
     background-color: #24231D;
     display: flex;
     justify-content: space-between;
