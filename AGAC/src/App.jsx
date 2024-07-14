@@ -2,6 +2,14 @@ import React from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
 import Foot from './component/Foot';
+import Home from './component/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Research from './pages/Research';
+import News from './pages/News';
+import Collaborations from './pages/Collaborations';
+import Contact from './pages/Contact';
+import './App.css';
 
 function App() {
   return (
