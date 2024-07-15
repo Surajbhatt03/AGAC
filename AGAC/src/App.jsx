@@ -18,6 +18,7 @@ function App() {
 
       
           <main className="main">
+
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -27,6 +28,7 @@ function App() {
               <Route path="/collaborations" element={<Collaborations />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
+
           </main>
 
       {/* End of First Block - Home */}
