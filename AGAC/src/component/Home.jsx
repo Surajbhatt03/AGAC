@@ -1,7 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ReactPlayer from "react-player/youtube";
 
 function Home() {
+  const VideoComponent = () => {
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    const handlePlay = () => {
+      setIsPlaying(true);
+    };
+
+    const handlePause = () => {
+      setIsPlaying(false);
+    };
+
+    return (
+      <div className="vid">
+        <div className="vid-container">
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=6LmQC-6nZTY"
+            controls
+            playing={isPlaying}
+            onPlay={handlePlay}
+            onPause={handlePause}
+            width="880px"
+            height="465px"
+          />
+          {!isPlaying && (
+            <div className="vid-text">
+              Redefining sustainable food production.
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       <section className="hero">
@@ -128,22 +162,115 @@ function Home() {
       </div>
       <section className="fourth-home">
         <div className="title-4">Explore Project</div>
-        <div className="introduction-4"> 
+        <div className="introduction-4">
           Nature's harmony, technology's efficiency.
         </div>
         <div className="exp-img">
-          <div className="vid">
-            <div className="vid-container">
-              <img src="./images/vid.png" alt="Redefining sustainable food production" />
-              
+          <VideoComponent />
+          <div className="img-4">
+            <div className="img1">
+              <img src="./images/home11.png" alt="" />
+              <div className="imgtext">
+                <h4>Grow Bed and Plant System</h4>
+              </div>
+            </div>
+            <div className="img2">
+              <img src="./images/home12.png" alt="" />
+              <div className="imgtext">
+                <h4>Harvesting and Processing Area</h4>
+              </div>
+            </div>
+            <div className="img2">
+              <img src="./images/home13.png" alt="" />
+              <div className="imgtext">
+                <h4>Automated Monitoring System</h4>
+              </div>
+            </div>
+            <div className="img2">
+              <img src="./images/home14.png" alt="" />
+              <div className="imgtext">
+                <h4>Fish Tanks and Biofilters</h4>
+              </div>
             </div>
           </div>
-          <div className="img-4">
-            <img src="./images/home11.png" alt="" />
-            <img src="./images/home12.png" alt="" />
-            <img src="./images/home13.png" alt="" />
-            <img src="./images/home14.png" alt="" />
+        </div>
+      </section>
+      <section className="fifth-home">
+        <div className="img5">
+          <span
+            style={{
+              fontFamily: "Covered By Your Grace, sans-serif",
+              color: "#EEC044",
+              fontSize: "24px",
+            }}
+          >
+            Fish Tanks and Biofilters
+          </span>
+
+          <img src="./images/home19.png" alt="" />
+        </div>
+        <div className="five-text">
+          <div className="title-5">
+            <h1>Overview of the center’s mission</h1>
           </div>
+          <div className="para-5">
+            There are many variations of passages of available but the majortity
+            have sufferred alteration in some form by injected humor or random
+            word which don't look even.
+          </div>
+          <div className="five-h4">Quality Organic Vegetables</div>
+          <div className="five-p">
+            There are variation You need to be sure there is anything hidden in
+            the middle of text.
+          </div>
+          <div className="five-h4">Sustainable food production.</div>
+          <div className="five-p">
+            There are variation You need to be sure there is anything hidden in
+            the middle of text.
+          </div>
+          <div className="five-h4">Cost Efficiency</div>
+          <div className="five-p">
+            There are variation You need to be sure there is anything hidden in
+            the middle of text.
+          </div>
+          <button className="button">Discover More</button>
+        </div>
+      </section>
+
+      <section className="six-home">
+        <div className="six-title">
+          <span
+            style={{
+              fontFamily: "Covered By Your Grace, sans-serif",
+              color: "#EEC044",
+              fontSize: "20px",
+            }}
+          >
+            Success Stories
+          </span>
+          <div className="title-6">
+            <h1>What They're Talking About AGAC</h1>
+          </div>
+
+          <div className="six-p">
+            There are many variations of passages of available but the majortity
+            have sufferred alteration in some form by injected humor or random
+            word which don't look even.
+          </div>
+          <button className="button">View All Stories</button>
+        </div>
+        <div className="user-six">
+          <div className="user-p1">
+            <div className="six-p2">
+              There are many variations of passages of available but the
+              majortity have sufferred alteration in some form by injected humor
+              or random word which don't look even.
+            </div>
+            <div className="user-name">
+              <h3>Bonnie Tolbert</h3>
+            </div>
+          </div>
+          <div class="circle"></div>
         </div>
       </section>
     </>
