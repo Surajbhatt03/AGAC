@@ -23,7 +23,8 @@
   align-items: start;
   justify-content: center;
   width: 380px;
-  >img{
+
+  >img {
     width: 50px;
     transform: rotate(10deg);
     position: relative;
@@ -34,10 +35,10 @@
 
 .hero-content {
   color: #fff;
-  position: relative; 
-  top: 280px; 
+  position: relative;
+  top: 280px;
   font-size: 28px;
-  margin: 0 0 0 30px; 
+  margin: 0 0 0 30px;
 }
 
 .hero-image {
@@ -59,7 +60,7 @@
   position: relative;
 }
 
-.header-cul h2{
+.header-cul h2 {
   font-family: 'Covered By Your Grace';
   font-style: normal;
   font-weight: 500;
@@ -88,7 +89,7 @@
 }
 
 .features-grid {
- /*
+  /*
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -97,7 +98,7 @@
   justify-content: center;
   */
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: flex-start;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -115,7 +116,7 @@
   justify-content: center;
   */
   flex: 1;
-  margin: 0 10px; 
+  margin: 0 10px;
   text-align: center;
   border: 0px solid #ccc;
   padding: 20px;
@@ -128,15 +129,15 @@
 
 
 .feature h3 {
-  text-align: center; 
+  text-align: center;
   max-width: 100%;
 }
-  
 
 
 
-  .feature img {
-    /*
+
+.feature img {
+  /*
   width: 50%;
   object-fit: cover; 
   margin-top: 10px;
@@ -144,8 +145,8 @@
   display: inline-block;
   text-align: center;
   */
-  max-width: 200%; 
-  object-fit: cover; 
+  max-width: 200%;
+  object-fit: cover;
   margin-top: 10px;
   border-radius: 11.6px;
 }
@@ -256,6 +257,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
 .introduction-4 {
   color: #FFA500;
   font-size: 18px;
@@ -267,37 +269,42 @@
 .title-4 {
   font-size: 28px;
   font-weight: bold;
-   display: flex;
+  display: flex;
   justify-content: center;
   margin: 15px;
-  
-}.exp-img {
-  
+
+}
+
+.exp-img {
+
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
 
 .img-4 {
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
 .img-4 img {
-  width: 200px; 
-  height: auto; 
-  border-radius: 5px; 
+  width: 220px;
+  height: 330px;
+  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.vid{
+
+.vid {
   display: flex;
   justify-content: center;
 }
-.vid img{
+
+.vid img {
   width: 800px;
   height: auto;
-  
+
 }
+
 .features-section {
   text-align: center;
   padding: 40px;
@@ -377,4 +384,122 @@
 
 .footer-links button:hover {
   background-color: #228b22;
+}
+
+.vid-text {
+  margin-left: 50px;
+  width: 200px;
+  top: -280px;
+  position: relative;
+  height: 0px;
+  color: #fff;
+  font-size: xx-large;
+}
+
+.imgtext {
+  position: relative;
+  top: -80px;
+  height: 0px;
+  color: #fff;
+  width: 130px;
+  margin-left: 20px;
+}
+
+.img5 {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img5 img {
+  width: 400px;
+  height: 300px;
+}
+
+.fifth-home {
+  margin: 70px 0 60px 320px;
+  gap: 100px;
+  display: flex;
+  width: 800px;
+}
+
+.para-5 {
+  font-size: 10px;
+  color: #878680;
+  margin: 10px 0 30px 0;
+}
+
+.five-p {
+  font-size: 11px;
+  color: #878680;
+  margin: 0 0 30px 0;
+}
+
+.five-h4 {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.six-home {
+  background-color: #e0dcc5a9;
+  height: 500px;
+  display: flex;
+}
+
+.six-title {
+  margin: 30px 0 60px 320px;
+  padding-top: 70px;
+  width: 200px;
+}
+
+.six-p {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #878680;
+  margin: 0 0 50px 0;
+}
+
+.title-6 {
+  margin: 10px 0 30px 0;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.user-six {
+  height: 180px;
+  width: 500px;
+  background-color: #fff;
+  margin: 150px 0 0 170px;
+  display: flex;
+}
+
+.six-p2 {
+
+  padding: 30px 0 0 30px;
+  font-size: 13px;
+  color: #878680;
+  margin: 0 0 20px 0;
+  width: 350px;
+}
+
+.user-name {
+  padding: 0 0 0 30px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #d6d3c159;
+  border-radius: 50%;
+  border-style: dotted;
+  color: #FFA500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.user-p1 {
+
+  display: flex;
+  flex-direction: column;
 }
