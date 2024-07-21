@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ReactPlayer from "react-player/youtube";
+import video from "../../images/video.mp4";
 
 function Home() {
   const VideoComponent = () => {
@@ -17,14 +17,13 @@ function Home() {
     return (
       <div className="vid">
         <div className="vid-container">
-          <ReactPlayer
-            url="https://www.youtube.com/watch?v=6LmQC-6nZTY"
+          <video
+            src={video}
             controls
-            playing={isPlaying}
+            width="880"
+            height="465"
             onPlay={handlePlay}
             onPause={handlePause}
-            width="880px"
-            height="465px"
           />
           {!isPlaying && (
             <div className="vid-text">
@@ -270,9 +269,41 @@ function Home() {
               <h3>Bonnie Tolbert</h3>
             </div>
           </div>
-          <div class="circle"></div>
+          <div className="circle"></div>
         </div>
       </section>
+       {/* News and Articles Section */}
+       <section className="news-articles">
+        <h2>From The Blog</h2>
+        <h1>News & Articles</h1>
+        <div className="articles-container">
+          <div className="article">
+            <img src="./images/home20.png" alt="Sustainable farming" />
+            <div className="article-content">
+              <div className="article-date">05 July 2022</div>
+              <div className="article-author">By Ron Martin</div>
+              <h3>Sustainable farming through aquaponics—where fish and plants thrive together.</h3>
+            </div>
+          </div>
+          <div className="article">
+            <img src="./images/home21.png" alt="Aquaponics" />
+            <div className="article-content">
+              <div className="article-date">05 July 2022</div>
+              <div className="article-author">By Kevin Martin</div>
+              <h3>Aquaponics: Nature’s harmony, technology’s efficiency.</h3>
+            </div>
+          </div>
+          <div className="article">
+            <img src="./images/home22.png" alt="Redefining sustainable food production" />
+            <div className="article-content">
+              <div className="article-date">05 July 2022</div>
+              <div className="article-author">By Kevin Martin</div>
+              <h3>Aquaponics agriculture: Redefining sustainable food production.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }

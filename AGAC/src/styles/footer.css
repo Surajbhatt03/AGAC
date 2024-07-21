@@ -1,87 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
-.footer {
-    /* height: 581px; */
-    color: white;
-    font-family: 'Manrope';
-   position: relative;
-   padding: 0px;  
-   margin-top: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.footer-1 {
-    /* height: 511px; */
-    background-color: #24231D;
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #222;
+    color: #bbb;
+    padding: 50px 0;
+}
+
+.footer-container {
     display: flex;
-    justify-content: space-between;
-    padding: 120px 120px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.footer-2 {
-    justify-content: center;
-    gap: 100px;
-    font-size: small;
-    display: flex;
-    height: 30px;
-    background-color: #1F1E17;
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
 }
 
-.f4 {
+.footer-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
     position: relative;
+    display: inline-block;
 }
 
-.f3 {
-    position: relative;
+.footer-section h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #4caf50;
+    display: block;
+    margin-top: 5px;
 }
 
-.f2 {
+.footer-section p {
+    line-height: 1.0;
+}
+
+.social-icons a {
+    color: #bbb;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.quick-links ul, .news ul {
+    list-style: none;
+}
+
+.quick-links ul li, .news ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a, .news ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.news ul li span {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact p i {
+    margin-right: 10px;
+}
+
+.newsletter {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    position: relative;
+    margin-top: 20px;
 }
 
-.f1 {
-    position: relative;
-    width: 300px;
-    height: 110px;
-    /* AGAC offers comprehensive support for all platform users. */
-    display: flex;
-    flex-direction: column;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 30px;
-/* or 200% */
-color: #A5A49A;
-
-
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    flex: 1;
 }
 
-.head-x {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    color: #878680;
-    align-items: start;
-
-    >li {
-        list-style: none;
-        font-size: 12px;
-
-    }
+.newsletter button {
+    padding: 10px;
+    border: none;
+    background: #4caf50;
+    color: #fff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
 }
 
-.footer-2 {
-    padding: 10px 0 0 0;
+.footer-bottom {
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.eleme {
-    
-    img {
-        width: 40px;
-        height: 40px;
-    }
+.footer-bottom p {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #4caf50;
 }
