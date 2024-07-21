@@ -1,46 +1,63 @@
-import React from "react";
-import "../styles/footer.css";
-export default function Foot() {
+import React from 'react';
+import '../styles/footer.css'; // Make sure to create and link the corresponding CSS file
+
+function Footer() {
   return (
-    <>
-      <div className="footer">
-        <div className="footer-1">
-          <div className="f1">
-            <div className="head">Logo</div>
-            <div className="head-x">
-              AGAC offers comprehensive support for all platform users.
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo">
+                <h2>LOGO</h2>
+                <p>There are many variations of passages of lorem ipsum available, but the majority suffered.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
-            <div className="eleme">
-              {<img src="./images/foottwit.png" alt=" " />}
-              {<img src="./images/footfb.png" alt=" " />}
-              {<img src="./images/footig.png" alt=" " />}
-              {<img src="./images/footpin.png" alt=" " />}
+            <div class="footer-section quick-links">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li><a href="#">Research highlight</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
-          </div>
-          <div className="f2">
-            <div className="head">Explore</div>
-            <div className="head-x">
-              <li>About</li>
-              <li>Services</li>
-              <li>Our Projects</li>
-              <li>Meet the Farmers</li>
-              <li>Latest News</li>
-              <li>Contact</li>
+            <div class="footer-section news">
+                <h2>News</h2>
+                <ul>
+                    <li>
+                        <a href="#">Bringing Food Production Back To Cities</a>
+                        <span>July 5, 2022</span>
+                    </li>
+                    <li>
+                        <a href="#">The Future of Farming, Smart Irrigation Solutions</a>
+                        <span>July 5, 2022</span>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div className="f3">
-            <div className="head">
-              News Bringing Food Production Back To Cities
+            <div class="footer-section contact">
+                <h2>Contact</h2>
+                <p><i class="fas fa-phone"></i> 9999999999</p>
+                <p><i class="fas fa-envelope"></i> example@jmedia.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> example location, New York, USA</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your Email Address"/>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </div>
             </div>
-            <div className="head-x"></div>
-          </div>
-          <div className="f4">Contact</div>
         </div>
-        <div className="footer-2">
-          <div className="head">All Copyright 2024 by AGAC</div>
-          <div className="head-x">Terms of Use   |   Privacy Policy</div>
+        <div class="footer-bottom">
+            <p>Â© All Copyright 2024 by AGAC</p>
+            <div class="footer-links">
+                <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+            </div>
         </div>
-      </div>
-    </>
+    </footer>
   );
 }
+
+export default Footer;
