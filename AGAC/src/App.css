@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -63,13 +66,14 @@
 .header-cul h2 {
   font-family: 'Covered By Your Grace';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 60.3049px;
   line-height: 87px;
   display: flex;
   align-items: center;
   margin-left: 30px;
   color: #FFFFFF;
+  padding: 0px;
 }
 
 .disbut {
@@ -119,6 +123,10 @@
   margin: 0 10px;
   text-align: center;
   border: 0px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -145,6 +153,7 @@
   display: inline-block;
   text-align: center;
   */
+ 
   max-width: 200%;
   object-fit: cover;
   margin-top: 10px;
@@ -182,7 +191,7 @@
 
 .mainImage {
   width: 400px;
-  height: 400px;
+  height: 350px;
   border-radius: 50%;
   border: 4px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -366,13 +375,13 @@
   background-color: #ff7f50;
 }
 
-.footer-links {
+.footer-l {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
 }
 
-.footer-links button {
+.footer-l button {
   background-color: #32cd32;
   border: none;
   padding: 15px 30px;
@@ -382,7 +391,7 @@
   transition: background-color 0.3s;
 }
 
-.footer-links button:hover {
+.footer-l button:hover {
   background-color: #228b22;
 }
 
@@ -440,17 +449,20 @@
   font-size: large;
   font-weight: bolder;
 }
-
 .six-home {
   background-color: #e0dcc5a9;
   height: 500px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .six-title {
-  margin: 30px 0 60px 320px;
+  margin: 30px 0 60px 0;
   padding-top: 70px;
-  width: 200px;
+  text-align: center;
+  width: 80%;
 }
 
 .six-p {
@@ -470,13 +482,14 @@
   height: 180px;
   width: 500px;
   background-color: #fff;
-  margin: 150px 0 0 170px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .six-p2 {
-
-  padding: 30px 0 0 30px;
+  padding: 30px;
   font-size: 13px;
   color: #878680;
   margin: 0 0 20px 0;
@@ -498,11 +511,30 @@
   margin: 20px;
 }
 
-.user-p1 {
+.arrow {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+}
 
+.left-arrow {
+  position: absolute;
+  left: -50px;
+}
+
+.right-arrow {
+  position: absolute;
+  right: -50px;
+}
+
+.user-p1 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
 .news-articles {
   padding: 60px 120px;
   text-align: center;
@@ -568,4 +600,20 @@
   font-weight: 700;
   color: #333;
   margin-bottom: 0;
+}
+.circle {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the circle */
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

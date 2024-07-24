@@ -5,11 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    FontFamily: {
-      abc:["Manrope"],
+    extend: {
+      fontFamily: {
+        abc: ["Manrope"],
+      },
     },
   },
   plugins: [],
 }
-
