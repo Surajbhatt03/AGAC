@@ -26,13 +26,17 @@ const Services = () => {
       <div className="aquaculture-container">
         <header className="header">
           <div className="col-md-12">
-            <img src=".\images\Services1..png" alt="Services1" />
+            <img src=".\images\Services1.png" alt="Services1" />
           </div>
         </header>
         <section className="aquaculture-section">
+          <div className="image">
+            <img src=".\images\Services2.png" alt="Services2" />
+          </div>
           <div className="content">
             <h2 className="whatwedo">What We Do</h2>
-            <h3 className="heading">Aquaculture Solutions</h3>
+            <h3>Aquaculture Solutions</h3>
+
             <div className="services">
               {servicesData.map((service, index) => (
                 <div key={index} className="service">
@@ -46,12 +50,10 @@ const Services = () => {
               ))}
             </div>
           </div>
-          <div className="image">
-            <img src=".\images\Services2.png" alt="Services2" />
-          </div>
         </section>
       </div>
 
+      
       <div className="container">
         <div className="row">
           <div className="col-md-3">
@@ -97,13 +99,20 @@ const Services = () => {
         </div>
         <div className="row mt-5">
           <div className="col-md-12">
-            <img src=".\images\Services7.png" className="img-fluid" alt="Services7" />
+            <div className="video-container">
+              <img src=".\images\Services7.png" className="img-fluid" alt="Services7" />
+              <div className="video-overlay">
+                <div className="play-button">▶</div>
+                <div className="video-text">Watch this video</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="row mt-12">
+        <div className="row mt-5">
           <div className="col-md-12">
             <div className="bg-success text-center p-5">
-              <h1 className="text-light">We're popular in aquaponics market globally</h1>
+              <h1 className="text-light">Aquaponics Market Leaders</h1>
+              <h2 className="text-light">We're popular in aquaponics market globally</h2>
               <a href="#" className="btn btn-warning mt-3">Discover More</a>
             </div>
           </div>
