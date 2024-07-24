@@ -1,0 +1,1838 @@
+.services .heading-1-services {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #FBFCFA;
+  }
+  .services .icon {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-services {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .icon-1 {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector-1 {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-our-projects {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .icon-2 {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector-2 {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-meet-the-farmers {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .icon-3 {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector-3 {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-latest-news {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .icon-4 {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector-4 {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-contact {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .div-elementor-column {
+    margin: 3px 98.6px 11.3px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .heading-2 {
+    margin: 0 46px 212.2px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .services .news {
+    margin: 0 1.5px 12.5px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  .services .before {
+    border-radius: 2px;
+    background: #4BAF47;
+    width: 4px;
+    height: 4px;
+  }
+  .services .after {
+    border-radius: 2px;
+    background: #4BAF47;
+    margin-right: 5px;
+    width: 45px;
+    height: 4px;
+  }
+  .services .list {
+    margin-top: 120.7px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .item {
+    position: relative;
+    margin-bottom: 28.8px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .services .heading-3-link-bringing-food-production {
+    position: absolute;
+    top: -66.2px;
+    right: -27.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #FFFFFF;
+  }
+  .services .july-52022 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.875;
+    color: #EEC044;
+  }
+  .services .item-1 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .heading-3-link-the-future-of-farming {
+    margin-bottom: 1.2px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #FFFFFF;
+  }
+  .services .frame {
+    position: relative;
+    margin: 0 144.6px 52.5px 0;
+    display: flex;
+    padding-top: 52px;
+    box-sizing: border-box;
+  }
+  .services .july-520221 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.875;
+    color: #EEC044;
+  }
+  .services .div-elementor-column-1 {
+    margin-bottom: 5.5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .heading-21 {
+    margin: 0 0.5px 9.5px 0.5px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .services .contact {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-element {
+    margin: 0 0.5px 12.5px 0.5px;
+    display: flex;
+    align-self: flex-start;
+    width: 270px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .services .span-elementor-divider-separator {
+    border-radius: 2px;
+    border-top: 4px solid #4BAF47;
+    display: flex;
+    width: 45px;
+    height: 4px;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-2 {
+    margin: 0 408px 148.9px 0;
+    display: flex;
+    width: 28px;
+    height: 687.4px;
+    box-sizing: border-box;
+  }
+  .services .after-1 {
+    border-radius: 2px;
+    background: #4BAF47;
+    width: 4px;
+    height: 4px;
+  }
+  .services .div-elementor-element-1 {
+    margin: 10.8px 8.4px 27.1px 0;
+    display: flex;
+    width: 270px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-5 {
+    width: 14.2px;
+    height: 14.2px;
+  }
+  .services .available-9-am-5-pm-est {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.733;
+    color: #A5A49A;
+  }
+  .services .div-elementor-element-2 {
+    margin: 0 3px 17.5px 3px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .icon-5 {
+    margin: 8.8px 9px 6.8px 0;
+    display: flex;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+  }
+  .services .vector-6 {
+    width: 14px;
+    height: 10.5px;
+  }
+  .services .supportagac-com {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.733;
+    color: #A5A49A;
+  }
+  .services .div-elementor-element-3 {
+    margin-bottom: 22.5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .div-master-shape {
+    border-radius: 215px;
+    background: #F8F7F0;
+    width: 430px;
+    height: 469.6px;
+  }
+  .services .icon-6 {
+    margin: 5.5px 13px 4.5px 0;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+  }
+  .services .vector-7 {
+    width: 12px;
+    height: 16px;
+  }
+  .services .dallas-united-states {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.733;
+    color: #A5A49A;
+  }
+  .services .form {
+    border-radius: 10px;
+    position: relative;
+    margin-left: 0.5px;
+    display: flex;
+    width: 270px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .services .input {
+    border-radius: 10px;
+    border: 1px solid #F8F7F0;
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    padding: 15.5px 0 16.5px 20px;
+    width: 270px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .services .your-email-address {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 12px;
+    color: #878680;
+  }
+  .services .button-submit {
+    border-radius: 0 10px 10px 0;
+    background: #4BAF47;
+    position: relative;
+    display: flex;
+    padding: 18.7px 20px 19.3px 18px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .services .vector-8 {
+    width: 12px;
+    height: 12px;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.333;
+    color: #731717;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub14 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.333;
+    color: #731717;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub47 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #20401E;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub48 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #20401E;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub51 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.333;
+    color: #335A31;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub52 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #335A31;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub54 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #214220;
+  }
+  .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring-sub56 {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #305B2F;
+  }
+  .services .consulting-services-genetic-analysis-and-biomarker-identification-ai-optimization-in-aquaculture-custom-research-personalized-nutrition-plans-disease-resistance-in-aquatic-species-training-programs-ai-in-agriculture-genetic-research-techniques-aquaculture-best-practices-precision-nutrition-system-genetic-screening-personalized-recommendations-ongoing-monitoring {
+    margin: 32.5px 0px 0 0;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #731717;
+  }
+  .services .logo {
+    position: absolute;
+    left: 388px;
+    top: 110.5px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #FFFFFF;
+  }
+  .services .footer-section {
+    background: #1F1E17;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-3 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .all-copyright-2024-by {
+    margin-right: 0.5px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.143;
+    color: #A5A49A;
+  }
+  .services .link-tplabs-co {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .div-elementor-column-4 {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-element-4 {
+    margin-right: 14.7px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .link-terms-of-use {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    color: #A5A49A;
+  }
+  .services .div-elementor-element-5 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .image-24 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    background: url('assets/images/Image24.png') 50% / cover no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 796px;
+    height: 648px;
+  }
+  .services .div-elementor-widget-container {
+    border-left: 1px solid #A5A49A;
+    display: flex;
+    padding-left: 15.4px;
+    box-sizing: border-box;
+  }
+  .services .link-privacy-policy {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    color: #A5A49A;
+  }
+  .services .section {
+    margin: 0 0 77.8px 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    box-sizing: border-box;
+  }
+  .services .elements {
+    margin: 24.3px 0 22.8px 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .logo-1 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+  .services .elements-1 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-widget-container-1 {
+    margin: 17px 30px 17px 0;
+    display: flex;
+    flex-direction: row;
+    width: 195px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .link-icon {
+    border-radius: 20px;
+    background: #F8F7F0;
+    margin-right: 10px;
+    display: flex;
+    padding: 14.3px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-9 {
+    width: 14px;
+    height: 11.4px;
+  }
+  .services .div-elementor-element-6 {
+    position: absolute;
+    top: 563.5px;
+    right: 536.7px;
+    display: flex;
+    padding-top: 9.8px;
+    box-sizing: border-box;
+  }
+  .services .link-icon-1 {
+    border-radius: 20px;
+    background: #F8F7F0;
+    margin-right: 10px;
+    display: flex;
+    padding: 13.2px 13.4px 13.3px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-10 {
+    width: 13.6px;
+    height: 13.5px;
+  }
+  .services .link-icon-2 {
+    border-radius: 20px;
+    background: #F8F7F0;
+    margin-right: 10px;
+    display: flex;
+    padding: 13.2px 14.8px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-11 {
+    width: 10.5px;
+    height: 13.6px;
+  }
+  .services .link-icon-3 {
+    border-radius: 20px;
+    background: #F8F7F0;
+    display: flex;
+    padding: 13.9px 14.8px 13.9px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-12 {
+    width: 12.3px;
+    height: 12.3px;
+  }
+  .services .div-elementor-widget-container-2 {
+    position: relative;
+    margin: 11.3px 20px 16.8px 0;
+    display: flex;
+    padding: 9.8px 3px 0 0;
+    box-sizing: border-box;
+  }
+  .services .heading-2-healthy-food-for-good {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #1F1E17;
+  }
+  .services .symbol {
+    margin: 0 32.1px 6.3px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    color: #4BAF47;
+  }
+  .services .heading-3-call-anytime {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.667;
+    color: #878680;
+  }
+  .services .container {
+    margin-top: 16.3px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.429;
+    color: #1F1E17;
+  }
+  .services .div-elementor-widget-container-3 {
+    border-left: 1px solid #E4E2D7;
+    margin: 2px 0px 2px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    width: 235.7px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .symbol-1 {
+    margin: 4px 32px 6px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    color: #4BAF47;
+  }
+  .services .heading-3-send-email {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.667;
+    color: #878680;
+  }
+  .services .example-com {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.429;
+    color: #1F1E17;
+  }
+  .services .div-elementor-widget-container-4 {
+    border-left: 1px solid #E4E2D7;
+    display: flex;
+    flex-direction: row;
+    padding: 11px 0 15px 20px;
+    box-sizing: border-box;
+  }
+  .services .symbol-2 {
+    margin-right: 25.2px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    color: #4BAF47;
+  }
+  .services .heading-3380-st-kilda-road {
+    margin: 0 0px 0.3px 0px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.667;
+    color: #878680;
+  }
+  .services {
+    background: #FFFFFF;
+    padding-top: 26.8px;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .services .what-we-do {
+    position: absolute;
+    top: 0px;
+    right: 18.8px;
+    overflow-wrap: break-word;
+    font-family: 'Covered By Your Grace';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 0.75;
+    color: #EEC044;
+  }
+  .services .dallas-united-states-1 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.429;
+    color: #1F1E17;
+  }
+  .services .watch-video {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 0.875;
+    color: #FFFFFF;
+  }
+  .watch-video-sub2 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #FBFCFA;
+  }
+  .services .frame-1 {
+    position: relative;
+    margin: 0 118px 59px 128px;
+    padding: 16px 102px 395px 102px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .section-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-5 {
+    margin-right: 387.2px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .heading-2-agriculture {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-column-6 {
+    margin: 135px 0 105px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-element-7 {
+    margin-bottom: 80px;
+    display: flex;
+    width: 570px;
+    height: 130px;
+    box-sizing: border-box;
+  }
+  .services .link-video {
+    border-radius: 50px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    padding: 35px 0 35px 2.7px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  .services .frame-2 {
+    background: #4BAF47;
+    position: relative;
+    margin-right: 15px;
+    display: flex;
+    padding: 89.5px 0 90.5px 0;
+    width: 1905px;
+    box-sizing: border-box;
+  }
+  .services .span-h-2-dbb-3-e-89-fc {
+    border-radius: 50px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 100px;
+    height: 100px;
+  }
+  .services .span-h-2-dcf-2-b-81-a {
+    border-radius: 50px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 100px;
+    height: 100px;
+  }
+  .services .icon-7 {
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+  }
+  .services .vector-13 {
+    width: 25.7px;
+    height: 30px;
+  }
+  .services .div-elementor-element-8 {
+    margin: 150px 4.7px 0 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .watch-our-video {
+    overflow-wrap: break-word;
+    font-family: 'Covered By Your Grace';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    color: #EEC044;
+  }
+  .services .frame-3 {
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 77px 0 9px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-7 {
+    margin: 14px 137.3px 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 707px;
+    box-sizing: border-box;
+  }
+  .services .div-master-image-box {
+    border-radius: 10px;
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 86px 27px 0;
+    padding: 23px 19px 19px 19px;
+    width: 345px;
+    box-sizing: border-box;
+  }
+  .services .div-thumb {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 57.5px;
+    width: 276px;
+    height: 298px;
+  }
+  .services .farm-green-webp {
+    background: url('assets/images/FarmGreenWebp.png');
+    position: absolute;
+    right: -14px;
+    bottom: 0px;
+    width: 951px;
+    height: 270px;
+  }
+  .services .screenshot-202407092332221 {
+    background: url('assets/images/Screenshot202407092332221.png') 50% / cover no-repeat;
+    position: absolute;
+    right: -46px;
+    bottom: -31px;
+    width: 322px;
+    height: 308px;
+  }
+  .services .div-content-wrap {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 19px;
+    bottom: -241px;
+    width: 266px;
+    height: 269px;
+  }
+  .consulting-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.333;
+    color: #8B8982;
+  }
+  .consulting-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results-sub2 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.333;
+  }
+  .consulting-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results-sub4 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.333;
+    color: #8B8982;
+  }
+  .services .consulting-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results {
+    margin: 0 12.8px 19.5px 9.8px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000000;
+  }
+  .services .link {
+    border-radius: 10px;
+    background: #4BAF47;
+    margin-left: 1.3px;
+    display: flex;
+    padding: 5px 0 5px 2.1px;
+    width: 109.3px;
+    box-sizing: border-box;
+  }
+  .services .read-more {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 3;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-column-8 {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .div-content-wrap-1 {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0 0 91px 2.9px;
+    box-sizing: border-box;
+  }
+  .custom-research-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.333;
+    color: #8B8982;
+  }
+  .services .custom-research-businesses-and-academic-institutions-can-engage-agac-for-custom-research-projects-tailored-to-their-specific-needs-and-objectives-our-multidisciplinary-team-collaborates-closely-with-clients-to-design-and-execute-research-that-delivers-impactful-results {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 0.875;
+    color: #000000;
+  }
+  .services .div-master-image-box-1 {
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-bottom: 417px;
+    display: flex;
+    padding: 0 3px;
+    width: 276px;
+    height: 320px;
+    box-sizing: border-box;
+  }
+  .services .div-thumb-1 {
+    border-radius: 10px;
+    display: flex;
+    width: 276px;
+    height: 320px;
+    box-sizing: border-box;
+  }
+  .services .section-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .service-02-webp {
+    background: url('assets/images/Service02Webp.png');
+    width: 270px;
+    height: 320px;
+  }
+  .services .link-1 {
+    border-radius: 10px;
+    background: #4BAF47;
+    margin: 0 6px 34px 0;
+    display: flex;
+    align-self: center;
+    padding: 4.8px 0 5.3px 0.8px;
+    width: 108px;
+    box-sizing: border-box;
+  }
+  .services .read-more-1 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 3;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-column-9 {
+    margin: 0 145.3px 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 287.5px;
+    box-sizing: border-box;
+  }
+  .services .div-master-image-box-2 {
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin: 0 3.7px 47px 4.7px;
+    display: flex;
+    width: 279px;
+    height: 320px;
+    box-sizing: border-box;
+  }
+  .services .div-thumb-2 {
+    border-radius: 10px;
+    position: relative;
+    width: 279px;
+    height: 320px;
+  }
+  .services .service-03-webp {
+    background: url('assets/images/Service03Webp.png');
+    position: absolute;
+    left: 4px;
+    top: 18px;
+    right: 5px;
+    bottom: -18px;
+    height: 100%;
+  }
+  .services .div-content-wrap-2 {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin: 0 179px 288px 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .agac-provides-arange-of-training-programs-including-workshops-seminars-and-online-courses-these-programs-educate-professionals-on-the-latest-developments-in-ai-genetic-research-and-aquaculture-techniques-supporting-continuous-learning-and-skill-development {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.333;
+    color: #878680;
+  }
+  .agac-provides-arange-of-training-programs-including-workshops-seminars-and-online-courses-these-programs-educate-professionals-on-the-latest-developments-in-ai-genetic-research-and-aquaculture-techniques-supporting-continuous-learning-and-skill-development-sub3 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.333;
+    color: #878680;
+  }
+  .services .agac-provides-arange-of-training-programs-including-workshops-seminars-and-online-courses-these-programs-educate-professionals-on-the-latest-developments-in-ai-genetic-research-and-aquaculture-techniques-supporting-continuous-learning-and-skill-development {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 0.875;
+    color: #878680;
+  }
+  .services .div-master-decor {
+    margin-right: 2.7px;
+    display: flex;
+    width: 109.3px;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-10 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .link-2 {
+    border-radius: 10px;
+    background: #4BAF47;
+    display: flex;
+    padding: 5px 0 5px 2.1px;
+    width: 109.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .read-more-2 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 3;
+    color: #FFFFFF;
+  }
+  .services .training-programs {
+    margin-bottom: 66px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 0.875;
+    color: #000000;
+  }
+  .services .div-elementor-column-11 {
+    position: relative;
+    margin: 12px 0 21.3px 0;
+    display: flex;
+    height: fit-content;
+    flex-grow: 1;
+    flex-basis: 309px;
+    box-sizing: border-box;
+  }
+  .services .div-master-image-box-3 {
+    border-radius: 10px;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 317.8px;
+    width: 309px;
+    height: 430px;
+  }
+  .services .div-content-wrap-3 {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: #FFFFFF;
+    position: absolute;
+    right: -64px;
+    bottom: 125px;
+    padding: 83px 32.9px 0 32.9px;
+    width: 404px;
+    height: 38px;
+    box-sizing: border-box;
+  }
+  .services .heading-3-dairy {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 0.875;
+    color: #1F1E17;
+  }
+  .services .screenshot-202407100032281 {
+    background: url('assets/images/Screenshot202407100032281.png') 50% / cover no-repeat;
+    position: absolute;
+    left: -261px;
+    top: -100.8px;
+    width: 634px;
+    height: 415px;
+  }
+  .services .div-master-decor-1 {
+    margin-left: 0.3px;
+    display: flex;
+    width: 109.3px;
+    box-sizing: border-box;
+  }
+  .services .link-3 {
+    border-radius: 10px;
+    background: #4BAF47;
+    display: flex;
+    padding: 5px 0 5px 2.1px;
+    width: 109.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .div-pre-heading {
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .services .read-more-3 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 3;
+    color: #FFFFFF;
+  }
+  .services .the-precision-nutrition-system-uses-genetic-and-health-data-to-develop-personalized-nutrition-plans-these-plans-aim-to-optimize-individual-health-outcomes-by-recommending-dietary-adjustments-based-on-genetic-predispositions-and-health-conditions {
+    position: absolute;
+    right: 34.5px;
+    bottom: 44.8px;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #8B8982;
+  }
+  .services .aquaponics-market-leaders {
+    overflow-wrap: break-word;
+    font-family: 'Covered By Your Grace';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #EEC044;
+  }
+  .services .heading-22 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .were-popular-in-aquaponics-market-globally {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-column-12 {
+    margin: 17px 0 16px 0;
+    display: flex;
+    width: 360px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .divfeatured-title {
+    background: url('assets/images/DivfeaturedTitle.jpeg'), linear-gradient(rgba(84, 204, 41, 0.9), rgba(84, 204, 41, 0.9));
+    margin-bottom: 137.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120.1px 0 120px 0;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .services .link-4 {
+    border-radius: 10px;
+    background: #EEC044;
+    display: flex;
+    padding: 15px 0 15px 0.7px;
+    width: 196.3px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .discover-more {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.143;
+    color: #FFFFFF;
+  }
+  .services .section-3 {
+    background: url('assets/images/Section.png');
+    position: absolute;
+    left: 7.5px;
+    top: 119.5px;
+    right: 7.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11.5px 0 30px 0;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-13 {
+    margin-bottom: 1.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .nav-list-item-link {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .home {
+    margin-right: 7.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .icon-8 {
+    margin: 17.7px 0 13.7px 0;
+    display: flex;
+    width: 7.9px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-14 {
+    width: 7.7px;
+    height: 4.7px;
+  }
+  .services .nav-list-item-link-1 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .about {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .nav-list-item-link-2 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .services-1 {
+    margin-right: 7.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #1F1E17;
+  }
+  .services .icon-9 {
+    margin: 17.7px 0 13.7px 0;
+    display: flex;
+    width: 7.9px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-15 {
+    width: 7.7px;
+    height: 4.7px;
+  }
+  .services .nav-list-item-link-3 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .projects {
+    margin-right: 7.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .icon-10 {
+    margin: 17.7px 0 13.7px 0;
+    display: flex;
+    width: 7.9px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-16 {
+    width: 7.7px;
+    height: 4.7px;
+  }
+  .services .div-breadcrumb-trail {
+    margin: 0 0px 0.1px 0;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .nav-list-item-link-4 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .news-1 {
+    margin-right: 7.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .icon-11 {
+    margin: 17.7px 0 13.7px 0;
+    display: flex;
+    width: 7.9px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-17 {
+    width: 7.7px;
+    height: 4.7px;
+  }
+  .services .nav-list-item-link-5 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .shop {
+    margin-right: 7.1px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .icon-12 {
+    margin: 17.7px 0 13.7px 0;
+    display: flex;
+    width: 7.9px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-18 {
+    width: 7.7px;
+    height: 4.7px;
+  }
+  .services .nav-list-item-link-6 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .contact-1 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #878680;
+  }
+  .services .link-5 {
+    margin: 2.9px 11.4px 4.1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(137, 97, 97, 0.6);
+  }
+  .services .div-elementor-column-14 {
+    margin-top: 1.5px;
+    display: flex;
+    width: 300px;
+    height: 59px;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-widget-container-5 {
+    border-left: 1px solid #E4E2D7;
+    display: flex;
+    padding: 7px 0 5px 0;
+    width: 55px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .services .vector-19 {
+    width: 24px;
+    height: 24px;
+  }
+  .services .group-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .services .footer-section-1 {
+    background: #24231D;
+    position: relative;
+    display: flex;
+    padding: 119.5px 1px 118.5px 0;
+    width: 1920px;
+    box-sizing: border-box;
+  }
+  .services .image {
+    opacity: 0.03;
+    position: absolute;
+    left: -50px;
+    bottom: 0px;
+    width: 315px;
+    height: 123.2px;
+  }
+  .services .section-4 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .link-home {
+    margin-right: 10.2px;
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 1.875;
+    text-transform: uppercase;
+    color: rgba(254, 18, 22, 0.7);
+  }
+  .services .div-elementor-column-15 {
+    margin: 87.5px 37.6px 50px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-element-9 {
+    margin-bottom: 35.5px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .agac-offers-comprehensive-support-for-all-platform-users {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .div-master-social-icons {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 10px;
+    width: 270px;
+    box-sizing: border-box;
+  }
+  .services .link-icon-4 {
+    border-radius: 20px;
+    background: #1F1E17;
+    display: flex;
+    padding: 14.3px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .services-2 {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 1.875;
+    text-transform: uppercase;
+    color: rgba(254, 18, 22, 0.7);
+  }
+  .services .vector-20 {
+    width: 14px;
+    height: 11.4px;
+  }
+  .services .link-icon-5 {
+    border-radius: 20px;
+    background: #1F1E17;
+    display: flex;
+    padding: 13.2px 13.4px 13.3px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-21 {
+    width: 13.6px;
+    height: 13.5px;
+  }
+  .services .link-icon-6 {
+    border-radius: 20px;
+    background: #1F1E17;
+    display: flex;
+    padding: 13.2px 14.8px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-22 {
+    width: 10.5px;
+    height: 13.6px;
+  }
+  .services .link-icon-7 {
+    border-radius: 20px;
+    background: #1F1E17;
+    display: flex;
+    padding: 13.9px 14.8px 13.9px 13px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .services .vector-23 {
+    width: 12.3px;
+    height: 12.3px;
+  }
+  .services .div-title-group {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .services .div-elementor-column-16 {
+    margin-right: 51.9px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .heading-23 {
+    margin: 0 0px 9.5px 0px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .services .explore {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #FFFFFF;
+  }
+  .services .div-elementor-element-10 {
+    margin: 0 0px 18.5px 0px;
+    display: flex;
+    align-self: flex-start;
+    width: 170px;
+    height: 32px;
+    box-sizing: border-box;
+  }
+  .services .span-elementor-divider-separator-1 {
+    border-radius: 2px;
+    border-top: 4px solid #4BAF47;
+    display: flex;
+    width: 45px;
+    height: 4px;
+    box-sizing: border-box;
+  }
+  .services .after-2 {
+    border-radius: 2px;
+    background: #4BAF47;
+    width: 4px;
+    height: 4px;
+  }
+  .services .div-master-list {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .icon-13 {
+    margin: 9.5px 13.8px 10.5px 0;
+    display: flex;
+    width: 11.3px;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .services .vector-24 {
+    width: 11.3px;
+    height: 10px;
+  }
+  .services .link-about {
+    overflow-wrap: break-word;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    color: #A5A49A;
+  }
+  .services .container {
+    background: url('assets/images/Image26.png') 50% / cover no-repeat;
+    position: relative;
+    margin: 0 3px 141px 7px;
+    display: flex;
+    padding: 356.5px 800px 352.5px 0;
+    width: 1910px;
+    box-sizing: border-box;
+  }
+  .services .container-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 309px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-2 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .services .container-3 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-4 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .container-5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .services .container-6 {
+    margin: 0 2.4px 11.5px 2.4px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-7 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .services .container-8 {
+    display: flex;
+    flex-direction: row;
+    width: 54px;
+    box-sizing: border-box;
+  }
+  .services .container-9 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-10 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-11 {
+    margin: 4px 0 3.8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 142.9px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-12 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-13 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .services .container-14 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .services .container-15 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
