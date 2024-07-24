@@ -8,12 +8,19 @@ export default function Navbar() {
       <div className="Navbar-1">
         <div className="logo">Logo</div>
         <div className="ele">
-          <img src="./images/TwitLogo.png" alt="Twitter Logo" />
-          <img src="./images/Fblogo.png" alt="Facebook Logo" />
-          <img src="./images/PinLogo.png" alt="Pinterest Logo" />
-          <img src="./images/InstaLogo.png" alt="Instagram Logo" />
-        </div>
-        <div className="contact">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src="./images/TwitLogo.png" alt="Twitter Logo" />
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="./images/Fblogo.png" alt="Facebook Logo" />
+          </a>
+          <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+            <img src="./images/PinLogo.png" alt="Pinterest Logo" />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="./images/InstaLogo.png" alt="Instagram Logo" />
+          </a></div>
+        <div className="contact-us">
           <div className="cont">
             <div className="head1">(Available 9 AM - 5 PM EST)</div>
             <div className="head2">+1-800-123-4567</div>

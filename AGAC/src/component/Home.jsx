@@ -1,40 +1,39 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import video from "../../images/video.mp4";
+import SuccessStories from "./SuccessStories";
 
-function Home() {
-  const VideoComponent = () => {
-    const [isPlaying, setIsPlaying] = useState(false);
+const VideoComponent = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
 
-    const handlePlay = () => {
-      setIsPlaying(true);
-    };
-
-    const handlePause = () => {
-      setIsPlaying(false);
-    };
-
-    return (
-      <div className="vid">
-        <div className="vid-container">
-          <video
-            src={video}
-            controls
-            width="880"
-            height="465"
-            onPlay={handlePlay}
-            onPause={handlePause}
-          />
-          {!isPlaying && (
-            <div className="vid-text">
-              Redefining sustainable food production.
-            </div>
-          )}
-        </div>
-      </div>
-    );
+  const handlePlay = () => {
+    setIsPlaying(true);
   };
 
+  const handlePause = () => {
+    setIsPlaying(false);
+  };
+
+  return (
+    <div className="vid">
+      <div className="vid-container">
+        <video
+          src={video}
+          controls
+          width="880"
+          height="465"
+          onPlay={handlePlay}
+          onPause={handlePause}
+        />
+        {!isPlaying && (
+          <div className="vid-text">Redefining sustainable food production.</div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+function Home() {
   return (
     <>
       <section className="hero">
@@ -54,6 +53,7 @@ function Home() {
           </Link>
         </div>
       </section>
+      
       <section className="features">
         <div className="features-grid">
           <div className="feature">
@@ -69,22 +69,15 @@ function Home() {
           <div className="feature">
             <div className="faci">Facility-3</div>
             <h3>Data Analytics and Visualization</h3>
-            <img
-              src="./images/home4.png"
-              alt="Data Analytics and Visualization"
-            />
+            <img src="./images/home4.png" alt="Data Analytics and Visualization" />
           </div>
         </div>
       </section>
-      {/* second section */}
+
       <div className="second-block-home">
         <div className="container">
           <div className="imageContainer">
-            <img
-              src="./images/home5.png"
-              alt="Fish Tank"
-              className="mainImage"
-            />
+            <img src="./images/home5.png" alt="Fish Tank" className="mainImage" />
             <img src="./images/home6.png" alt="Plants" className="subImage" />
           </div>
           <div className="textContainer">
@@ -103,19 +96,11 @@ function Home() {
             </p>
             <div className="features">
               <div className="featureItem">
-                <img
-                  src="./images/VegetableInBasketIcon.svg"
-                  alt="Chemical Free"
-                  className="featureIcon"
-                />
+                <img src="./images/VegetableInBasketIcon.svg" alt="Chemical Free" className="featureIcon" />
                 <p>Chemical free vegetables</p>
               </div>
               <div className="featureItem">
-                <img
-                  src="./images/ResearchIcon.svg"
-                  alt="Genomic Research"
-                  className="featureIcon"
-                />
+                <img src="./images/ResearchIcon.svg" alt="Genomic Research" className="featureIcon" />
                 <p>Genomic Research</p>
               </div>
             </div>
@@ -127,6 +112,7 @@ function Home() {
           </div>
         </div>
       </div>
+      
       <div className="features-section">
         <h2>Our Features</h2>
         <h3>Key technologies</h3>
@@ -152,18 +138,17 @@ function Home() {
             <button>Read More</button>
           </div>
         </div>
-        <div className="footer-links">
+        <div className="footer-l">
           <button>Aquaponics</button>
           <button>Ongoing Projects</button>
           <button>Precision Nutrition System™</button>
           <button>New technologies</button>
         </div>
       </div>
+      
       <section className="fourth-home">
         <div className="title-4">Explore Project</div>
-        <div className="introduction-4">
-          Nature's harmony, technology's efficiency.
-        </div>
+        <div className="introduction-4">Nature's harmony, technology's efficiency.</div>
         <div className="exp-img">
           <VideoComponent />
           <div className="img-4">
@@ -194,6 +179,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       <section className="fifth-home">
         <div className="img5">
           <span
@@ -205,7 +191,6 @@ function Home() {
           >
             Fish Tanks and Biofilters
           </span>
-
           <img src="./images/home19.png" alt="" />
         </div>
         <div className="five-text">
@@ -213,8 +198,8 @@ function Home() {
             <h1>Overview of the center’s mission</h1>
           </div>
           <div className="para-5">
-            There are many variations of passages of available but the majortity
-            have sufferred alteration in some form by injected humor or random
+            There are many variations of passages of available but the majority
+            have suffered alteration in some form by injected humor or random
             word which don't look even.
           </div>
           <div className="five-h4">Quality Organic Vegetables</div>
@@ -236,44 +221,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="six-home">
-        <div className="six-title">
-          <span
-            style={{
-              fontFamily: "Covered By Your Grace, sans-serif",
-              color: "#EEC044",
-              fontSize: "20px",
-            }}
-          >
-            Success Stories
-          </span>
-          <div className="title-6">
-            <h1>What They're Talking About AGAC</h1>
-          </div>
+      <SuccessStories />
 
-          <div className="six-p">
-            There are many variations of passages of available but the majortity
-            have sufferred alteration in some form by injected humor or random
-            word which don't look even.
-          </div>
-          <button className="button">View All Stories</button>
-        </div>
-        <div className="user-six">
-          <div className="user-p1">
-            <div className="six-p2">
-              There are many variations of passages of available but the
-              majortity have sufferred alteration in some form by injected humor
-              or random word which don't look even.
-            </div>
-            <div className="user-name">
-              <h3>Bonnie Tolbert</h3>
-            </div>
-          </div>
-          <div className="circle"></div>
-        </div>
-      </section>
-       {/* News and Articles Section */}
-       <section className="news-articles">
+      <section className="news-articles">
         <h2>From The Blog</h2>
         <h1>News & Articles</h1>
         <div className="articles-container">
@@ -286,24 +236,24 @@ function Home() {
             </div>
           </div>
           <div className="article">
-            <img src="./images/home21.png" alt="Aquaponics" />
+            <img src="./images/home21.png" alt="Advanced technologies" />
             <div className="article-content">
-              <div className="article-date">05 July 2022</div>
-              <div className="article-author">By Kevin Martin</div>
-              <h3>Aquaponics: Nature’s harmony, technology’s efficiency.</h3>
+              <div className="article-date">19 June 2022</div>
+              <div className="article-author">By Jane Doe</div>
+              <h3>Advanced technologies in genomic research enhancing crop yields.</h3>
             </div>
           </div>
           <div className="article">
-            <img src="./images/home22.png" alt="Redefining sustainable food production" />
+            <img src="./images/home22.png" alt="Year-round production" />
             <div className="article-content">
-              <div className="article-date">05 July 2022</div>
-              <div className="article-author">By Kevin Martin</div>
-              <h3>Aquaponics agriculture: Redefining sustainable food production.</h3>
+              <div className="article-date">10 May 2022</div>
+              <div className="article-author">By John Smith</div>
+              <h3>Year-round production with deep water culture systems.</h3>
             </div>
           </div>
         </div>
+        <button className="button">Read More Articles</button>
       </section>
-
     </>
   );
 }

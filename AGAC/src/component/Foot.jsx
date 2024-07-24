@@ -51,7 +51,7 @@ function Footer() {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Â© All Copyright 2024 by AGAC</p>
+            <p>© All Copyright 2024 by AGAC</p>
             <div class="footer-links">
                 <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
             </div>
