@@ -1,22 +1,23 @@
 import React from 'react';
-import '../styles/footer.css'; // Make sure to create and link the corresponding CSS file
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '../styles/footer.css'; 
 
 function Footer() {
   return (
     <footer>
-        <div class="footer-container">
-            <div class="footer-section logo">
-                <h2>LOGO</h2>
-                <p>There are many variations of passages of lorem ipsum available, but the majority suffered.</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+        <div className="footer-container">
+            <div className="footer-section logo">
+                <img src="./images/logo (2).png" alt="Logo" />
+                <p>AGAC offers comprehensive support for all platform users.</p>
+                <div className="social-icons">
+                    <a href="#"><i className="fab fa-twitter"></i></a>
+                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                    <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i className="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="footer-section quick-links">
-                <h2>Quick links</h2>
+            <div className="footer-section quick-links">
+                <h2>Explore</h2>
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
@@ -26,33 +27,33 @@ function Footer() {
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="footer-section news">
+            <div className="footer-section news">
                 <h2>News</h2>
                 <ul>
                     <li>
-                        <a href="#">Bringing Food Production Back To Cities</a>
+                        <a href="#"><b>Bringing Food Production Back To Cities</b></a>
                         <span>July 5, 2022</span>
                     </li>
                     <li>
-                        <a href="#">The Future of Farming, Smart Irrigation Solutions</a>
+                        <a href="#"><b>The Future of Farming, Smart Irrigation Solutions</b></a>
                         <span>July 5, 2022</span>
                     </li>
                 </ul>
             </div>
-            <div class="footer-section contact">
+            <div className="footer-section contact">
                 <h2>Contact</h2>
-                <p><i class="fas fa-phone"></i> 9999999999</p>
-                <p><i class="fas fa-envelope"></i> example@jmedia.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> example location, New York, USA</p>
-                <div class="newsletter">
+                <p><i className="fas fa-phone"></i> +1-800-123-4567 {/* (Available 9AM - 5PM EST)*/}</p>
+                <p><i className="fas fa-envelope"></i> support@agac.com</p>
+                <p><i className="fas fa-map-marker-alt"></i> Dallas, United States</p>
+                <div className="newsletter">
                     <input type="email" placeholder="Your Email Address"/>
-                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    <button type="submit"><i className="fas fa-paper-plane"></i></button>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div className="footer-bottom">
             <p>© All Copyright 2024 by AGAC</p>
-            <div class="footer-links">
+            <div className="footer-links">
                 <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
             </div>
         </div>
