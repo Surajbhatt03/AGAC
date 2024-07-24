@@ -1,0 +1,113 @@
+.blocks-3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    align-items: center;
+    color: aliceblue;
+    margin: 60px 0 100px 0;
+}
+.contact-h1{
+    font-family: 'Covered By Your Grace';
+        font-size: 25px;
+}
+.blocks-3 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center; 
+    width: 300px;
+    height: 200px;
+    padding: 20px; /* Add some padding for better spacing */
+    border-radius: 10px;
+    
+}
+
+.block-3-1 {
+    background-color: #4BAF47;
+}
+p{
+    text-align: center;
+}
+.block-3-2 {
+    background-color: #C5CE38;
+    
+}
+
+.block-3-3 {
+    background-color: #EEC044;
+}
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 560px;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  .contact-info {
+    width: 50%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    >h2{
+        font-family: 'Covered By Your Grace';
+    }
+  }
+  
+  .contact-info h2,
+  .contact-info h3 {
+    margin: 10px 0;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .map-container {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .contact-form {
+    width: 50%;
+    padding: 40px;
+    background-color: #eee9d8a7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
