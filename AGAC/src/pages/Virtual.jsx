@@ -34,7 +34,7 @@ const Virtual = () => {
 
       <section className="py-8">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-extrabold mb-4 text-center mt-4">AI-Powered Research Portal</h2>
+          <h2 className="text-3xl font-extrabold mb-4 text-center mt-1">AI-Powered Research Portal</h2>
           <p className="text-center mb-8 mt-4 text-lg text-gray-500 font-bold">
             The AI-Powered Research Portal offers advanced AI tools for data analysis, modeling, and simulation.
             These tools enable researchers to derive actionable insights from complex datasets, supporting innovative
@@ -72,21 +72,21 @@ const Virtual = () => {
             <div className="md:w-1/2 md:pl-8 mt-4 md:mt-0">
               <div className="p-4 bg-white rounded-lg shadow mb-4">
                 <h3 className="text-xl font-bold mb-2 mt-4">Secure Storage</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-left">
                   Implementing industry-standard security protocols such as encryption (both in-transit and at-rest), firewall,
                   and intrusion detection systems to safeguard sensitive genomic data.
                 </p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow mb-4">
                 <h3 className="text-xl font-bold mb-2">Data Sharing</h3>
-                <p  className="text-gray-600">
+                <p  className="text-gray-600 text-left">
                   Features that allow researchers to share data sets with colleagues, both within and outside their organization.
                   Options for granting temporary access are available.
                 </p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow mb-4">
                 <h3 className="text-xl font-bold mb-2">Search and Retrieval</h3>
-                <p  className="text-gray-600">
+                <p  className="text-gray-600 text-left">
                   Full-text search, filtering, and sorting options to help researchers quickly find specific datasets.
                   Search parameters include genomic markers, project names, submission dates, etc.
                 </p>
@@ -100,7 +100,7 @@ const Virtual = () => {
       <section className="py-8">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-extrabold mb-4 text-center ">Interactive Forums</h2>
-          <p className="text-center mb-8 mt-4 text-lg text-gray-500 font-bold">
+          <p className="text-center mb-8 text-lg text-gray-500 font-bold">
             The AI-Powered Research Portal offers advanced AI tools for data analysis, modeling, and simulation.
             These tools enable researchers to derive actionable insights from complex datasets, supporting innovative
             research and development.
@@ -126,7 +126,7 @@ const Virtual = () => {
       <section className="py-8 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-extrabold mb-4 text-center ">Virtual Reality Tours</h2>
-          <p className="text-center mb-8 mt-6 text-lg text-gray-500 font-bold">
+          <p className="text-center mb-8 mt-2 text-lg text-gray-500 font-bold">
             Experience the intricacies of aquaculture systems through immersive VR tours.
           </p>
           <div className="flex flex-col gap-8">
@@ -167,7 +167,7 @@ const Virtual = () => {
               <img src={learning1} alt="Media Kit 1" className="w-72 h-72 rounded-full object-cover object-left mr-4 border border-black"/> {/* Increased dimensions */}
               <div className="text-left">
               <h1 className="font-extrabold text-black text-3xl text-center mb-4"> AI in Agriculture</h1>
-                <p className="text-gray-500 mb-2 text-md ml-6"> Learn how AI can optimize crop yield and reduce waste through predictive analytics and machine learning algorithms. Understand the integration of drone technology in farming to monitor crop health and manage fields efficiently. Explore the use of AI in developing smart irrigation systems that conserve water and maximize crop output.</p>
+                <p className="text-gray-500 mb-2 text-md ml-6 text-left"> Learn how AI can optimize crop yield and reduce waste through predictive analytics and machine learning algorithms. Understand the integration of drone technology in farming to monitor crop health and manage fields efficiently. Explore the use of AI in developing smart irrigation systems that conserve water and maximize crop output.</p>
                 <button className="bg-green-600 mt-2 text-white px-5 py-1 rounded hover:bg-green-700 ml-6"> Enroll Now</button>
               </div>
             </div>
@@ -176,7 +176,7 @@ const Virtual = () => {
               <img src={learning2} alt="Media Kit 2" className="w-72 h-72 rounded-full object-cover mr-4 border border-black"/> {/* Increased dimensions */}
               <div className="text-left">
               <h1 className="font-extrabold text-black text-3xl text-center mb-4"> Genetic Research </h1>
-                <p className="text-gray-500 mb-2 text-md ml-6">Understand the basics and applications of CRISPR technology in agriculture to create disease-resistant and high-yield crops. Dive into the world of bioinformatics and learn how to analyze genetic data for agricultural advancements. Explore the principles of plant genetics and breeding techniques to develop improved crop varieties.</p>
+                <p className="text-gray-500 mb-2 text-md ml-6 text-left">Understand the basics and applications of CRISPR technology in agriculture to create disease-resistant and high-yield crops. Dive into the world of bioinformatics and learn how to analyze genetic data for agricultural advancements. Explore the principles of plant genetics and breeding techniques to develop improved crop varieties.</p>
                 <button className="bg-green-600 mt-2 text-white px-5 py-1 rounded hover:bg-green-700 ml-6"> Enroll Now</button>
               </div>
             </div>
@@ -185,7 +185,7 @@ const Virtual = () => {
               <img src={learning3} alt="Media Kit 3" className="w-72 h-72 rounded-full object-cover mr-4 border border-black"/> {/* Increased dimensions */}
               <div className="text-left">
               <h1 className="font-extrabold text-black text-3xl text-center mb-4">Sustainable Farming Techniques </h1>
-                <p className="text-gray-500 mb-2 text-md ml-8">Study the principles of organic farming and how to implement sustainable practices on your farm. Learn the fundamentals of permaculture and how to design agricultural systems that are sustainable and self-sufficient. Understand the importance of soil health and learn techniques for maintaining and improving soil quality.</p>
+                <p className="text-gray-500 mb-2 text-md ml-8 text-left">Study the principles of organic farming and how to implement sustainable practices on your farm. Learn the fundamentals of permaculture and how to design agricultural systems that are sustainable and self-sufficient. Understand the importance of soil health and learn techniques for maintaining and improving soil quality.</p>
                 <button className="bg-green-600 mt-2 text-white px-5 py-1 rounded hover:bg-green-700 ml-8"> Enroll Now</button>
               </div>
             </div>
@@ -296,13 +296,13 @@ const Virtual = () => {
             <div className="md:w-1/2 md:pl-8 mt-4 md:mt-0">
               <div className="p-4 bg-white rounded-lg shadow mb-4 mt-8">
                 <h3 className="text-xl font-bold mb-2"> Troubleshooting Guides</h3>
-                <p  className="text-gray-600">
+                <p  className="text-gray-600 text-left">
                 Provides detailed step-by-step instructions and visuals to help users independently resolve common technical issues, enhancing self-service capabilities.
                 </p>
               </div>
               <div className="p-4 bg-white rounded-lg shadow mb-4">
                 <h3 className="text-xl font-bold mb-2">Ticketing System </h3>
-                <p  className="text-gray-600">
+                <p  className="text-gray-600 text-left">
                 Offers a structured form for users to submit technical issues, with the ability to track ticket status and receive updates on progress and resolution timelines.
                 </p>
               </div>
