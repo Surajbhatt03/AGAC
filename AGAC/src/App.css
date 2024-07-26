@@ -419,30 +419,43 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+ /* width: 40vw; */
 }
 
 .img5 img {
-  width: 400px;
-  height: 300px;
+  width: 20vw;
+  aspect-ratio: 1/1;
+
 }
 
 .fifth-home {
-  margin: 70px 0 60px 320px;
-  gap: 100px;
   display: flex;
-  width: 800px;
-}
+  justify-content:center;
+  align-items:end;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  gap: 2vw;
+  margin: 4rem 0rem;
 
+}
+.five-text{
+  display: flex;
+  width: 25vw;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
 .para-5 {
   font-size: 10px;
   color: #878680;
-  margin: 10px 0 30px 0;
+  /* margin: 10px 0 30px 0; */
 }
 
 .five-p {
   font-size: 11px;
   color: #878680;
-  margin: 0 0 30px 0;
+  /* margin: 0 0 30px 0; */
 }
 
 .five-h4 {
@@ -543,6 +556,7 @@
 .news-articles h2 {
   font-family: 'Covered By Your Grace';
   font-weight: 300;
+  font-size: 24px;
   color: #F9A825;
   margin-bottom: 10px;
 }

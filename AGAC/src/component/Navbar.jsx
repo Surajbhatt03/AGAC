@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar-1">
-        <div className="logo">Logo</div>
+        <div className="logo"><img src="./images/logo (2).png" alt="Logo" /></div>
         <div className="ele">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <img src="./images/TwitLogo.png" alt="Twitter Logo" />
