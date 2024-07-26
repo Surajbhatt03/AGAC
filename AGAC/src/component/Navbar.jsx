@@ -37,6 +37,8 @@ export default function Navbar() {
           <li><Link to="/news">News</Link></li>
           <li><Link to="/collaborations">Collaborations</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/virtual">Advanced Features and Virtual Tools</Link></li>
+
         </nav>
       </div>
     </div>
