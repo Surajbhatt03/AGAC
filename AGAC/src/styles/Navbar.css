@@ -1,77 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-
-.Navbar{
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Manrope';
+.Navbar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope';
 }
+
 .Navbar-1 {
-    display: flex;
-    height: 115.5px;
-    max-width: 1200px;
-    justify-content: flex-end; 
-    margin-left: auto;
+  display: flex;
+  height: 115.5px;
+  max-width: 1200px;
+  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 400;
-    align-content: center;
-    justify-content: center;
-    margin: 0 200px 0 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px; 
+}
+
+.logo img {
+  height: 60px; 
+  width: auto; 
 }
 
 .ele {
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: 60px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+}
 
-    >a {
-        width: 40px;
-        height: 40px;
-    }
+.ele > a {
+  width: 40px;
+  height: 40px;
 }
 
 .nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav li {
-    margin-right: 20px;
-    list-style: none;
+  margin-right: 20px;
+  list-style: none;
 }
 
-.contact-us  {
-    display: flex;
-    align-items: center;
-    margin: 0 10px 0 0;
-    column-gap: 25px;
+.contact-us {
+  display: flex;
+  align-items: center;
+  margin: 0 10px 0 0;
+  column-gap: 25px;
 }
-.head1{
-    font-size: small;
-    color: #878680;
+
+.head1 {
+  font-size: small;
+  color: #878680;
 }
-.nav{
-    justify-content: space-evenly;
-    display: flex;
-    padding: 0 100px;
-    height: 79px;
-    background-color: #fbf8ee;
-    font-family: 'Manrope';
-    align-items: center;
+
+.nav {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 0 100px;
+  height: 79px;
+  background-color: #fbf8ee;
+  font-family: 'Manrope';
+  align-items: center;
 }
-.Navbar-2{
-    list-style: none;
-    a{
-        color: black;
-        text-decoration: none;
-    }
+
+.Navbar-2 {
+  list-style: none;
+}
+
+.Navbar-2 a {
+  color: black;
+  text-decoration: none;
 }

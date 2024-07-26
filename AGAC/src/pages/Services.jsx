@@ -109,14 +109,15 @@ const Services = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-12">
-            <div className="bg-success text-center p-5">
-              <h1 className="text-light">Aquaponics Market Leaders</h1>
-              <h2 className="text-light">We're popular in aquaponics market globally</h2>
-              <a href="#" className="btn btn-warning mt-3">Discover More</a>
-            </div>
-          </div>
-        </div>
+  <div className="col-md-12">
+    <div className="bg-success text-center p-5">
+      <h1 className="text-light">Aquaponics Market Leaders</h1>
+      <h2 className="text-l">We're   popular   in   aquaponics   market   globally</h2>
+      <a href="#" className="btn btn-warning mt-3">Discover More</a>
+    </div>
+  </div>
+</div>
+
       </div>
     </>
   );
