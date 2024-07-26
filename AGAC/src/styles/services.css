@@ -131,7 +131,7 @@ text-align: left;
   padding: 0 50px; /* Adds space between the cards */
 }
 
-.card {
+.card-x {
   width: 100%;
   margin-bottom: 20px;
 }
