@@ -1,11 +1,11 @@
 import React from 'react';
-import "./About.css"
+import "../styles/About.css"
 function About() {
   return (
     <>
       <div>This is the About page</div>
       
-      <section className="hero">
+      <section className="about">
         <img src="image1.jpg" alt="image1" />
         <img src="image2.jpg" alt="image2" />
         <img src="image3.jpg" alt="image3" />
