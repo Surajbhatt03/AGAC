@@ -4,34 +4,20 @@ import "../styles/Services.css";
 
 const servicesData = [
   {
-    title: "Consulting Services:",
-    items: [
-      "Genetic Analysis and Biomarker identification",
-      "AI optimization in Aquaculture",
-    ],
+    title: 'Consulting Services:',
+    items: ['Genetic Analysis and Biomarker identification', 'AI optimization in Aquaculture'],
   },
   {
-    title: "Custom Research:",
-    items: [
-      "Personalized Nutrition Plans",
-      "Disease Resistance in Aquatic species",
-    ],
+    title: 'Custom Research:',
+    items: ['Personalized Nutrition Plans', 'Disease Resistance in Aquatic species'],
   },
   {
-    title: "Training Programs:",
-    items: [
-      "AI in agriculture",
-      "Genetic Research Techniques",
-      "Aquaculture Best practices",
-    ],
+    title: 'Training Programs:',
+    items: ['AI in agriculture', 'Genetic Research Techniques', 'Aquaculture Best practices'],
   },
   {
-    title: "Precision Nutrition System:",
-    items: [
-      "Genetic Screening",
-      "Personalized Recommendations",
-      "Ongoing Monitoring",
-    ],
+    title: 'Precision Nutrition System:',
+    items: ['Genetic Screening', 'Personalized Recommendations', 'Ongoing Monitoring'],
   },
 ];
 
@@ -72,7 +58,7 @@ const Services = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <div className="card-x">
+            <div className="card">
               <img src=".\images\Services3.png" className="card-img-top" alt="Services3" />
               <div className="card-body">
                 <h5 className="card-title">Consulting</h5>
@@ -82,7 +68,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card-x">
+            <div className="card">
               <img src=".\images\Services4.png" className="card-img-top" alt="Services4" />
               <div className="card-body">
                 <h5 className="card-title">Custom Research</h5>
@@ -92,7 +78,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card-x">
+            <div className="card">
               <img src=".\images\Services5.png" className="card-img-top" alt="Services5" />
               <div className="card-body">
                 <h5 className="card-title">Training Programs</h5>
@@ -102,7 +88,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card-x">
+            <div className="card">
               <img src=".\images\Services6.png" className="card-img-top" alt="Services6" />
               <div className="card-body">
                 <h5 className="card-title">Precision Nutrition System</h5>
@@ -124,14 +110,15 @@ const Services = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-12">
-            <div className="bg-success text-center p-5">
-              <h1 className="text-light">Aquaponics Market Leaders</h1>
-              <h2 className="text-light">We're popular in aquaponics market globally</h2>
-              <a href="#" className="btn btn-warning mt-3">Discover More</a>
-            </div>
-          </div>
-        </div>
+  <div className="col-md-12">
+    <div className="bg-success text-center p-5">
+      <h1 className="text-light">Aquaponics Market Leaders</h1>
+      <h2 className="text-l">We're   popular   in   aquaponics   market   globally</h2>
+      <a href="#" className="btn btn-warning mt-3">Discover More</a>
+    </div>
+  </div>
+</div>
+
       </div>
     </>
   );
