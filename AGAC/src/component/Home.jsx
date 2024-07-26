@@ -82,7 +82,7 @@ function Home() {
           </div>
           <div className="textContainer">
             <p className="introduction">Our Introductions</p>
-            <h1 className="title">Aquatech genomic agriculture center</h1>
+            <h1 className="title">AquaGenetics AI Labs.</h1>
             <p className="subtitle">
               Our fish tanks and biofilters work in harmony to provide
               nutrient-rich water for the plants
@@ -180,7 +180,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="fifth-home">
+      <div className="fifth-home">
         <div className="img5">
           <span
             style={{
@@ -195,7 +195,7 @@ function Home() {
         </div>
         <div className="five-text">
           <div className="title-5">
-            <h1>Overview of the center’s mission</h1>
+            <h1 className="five-h4">Overview of the center’s mission</h1>
           </div>
           <div className="para-5">
             There are many variations of passages of available but the majority
@@ -219,7 +219,7 @@ function Home() {
           </div>
           <button className="button">Discover More</button>
         </div>
-      </section>
+      </div>
 
       <SuccessStories />
 
