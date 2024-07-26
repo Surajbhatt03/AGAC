@@ -31,7 +31,7 @@ function App() {
 
           </main>
 
-      {/* End of First Block - Home */}
+      
 
       <Foot />
     </Router>

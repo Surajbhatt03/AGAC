@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
 }
 
 footer {
-    background-color: #222;
+    background-color: #24231D;
     color: #bbb;
     padding: 0px 0;
 }
@@ -27,6 +28,19 @@ footer {
     flex: 1;
     padding: 20px;
     min-width: 200px;
+}
+
+.footer-section.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section.logo img {
+    max-width: 30%; 
+    height: auto;    
+    margin-bottom: 15px; 
 }
 
 .footer-section h2 {
@@ -46,18 +60,41 @@ footer {
 }
 
 .footer-section p {
-    line-height: 0.8;
-    
+    line-height: 1;
+    margin-bottom: 15px;
+    font-size: medium;
 }
 
-.social-icons a {
-    color: #bbb;
-    margin-right: 10px;
-    font-size: 1.2em;
-}
+
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;  
+        height: 30px; 
+        border-radius: 50%;
+        background-color: #333; 
+        color: #bbb; 
+        margin-right: 10px;
+        font-size: 1.2em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+        transition: background-color 0.3s, color 0.3s; 
+    }
+    
+    .social-icons a:hover {
+        background-color: #4caf50; 
+        color: #fff; 
+    }
+    
+
 
 .quick-links ul, .news ul {
     list-style: none;
+    margin-bottom: 5px;
+}
+
+.quick-links h2{
+    margin-bottom: 0px;
 }
 
 .quick-links ul li, .news ul li {
@@ -65,14 +102,15 @@ footer {
 }
 
 .quick-links ul li a, .news ul li a {
-    color: #bbb;
+    color: hsba(0, 0%, 100%, 1);
+
     text-decoration: none;
 }
 
 .news ul li span {
     display: block;
     font-size: 0.9em;
-    color: #777;
+    color: #dbd819;
 }
 
 .contact p {
@@ -105,20 +143,24 @@ footer {
 }
 
 .footer-bottom {
-    background: #111;
+    background: #1F1E17;
     padding: 20px 0;
     text-align: center;
     display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
+
+
 .footer-bottom p {
-    margin:0 20px 0 50px;
-    height: 10px;
-    
+    margin: 0 20px;
 }
-.footer-links{
-    margin: 0px 0 0 700px;
+
+.footer-links {
+    margin-left: 40px; 
 }
+
 .footer-links a {
     color: #bbb;
     text-decoration: none;
