@@ -1,5 +1,6 @@
-import React from 'react';
-import '../styles/Services.css';
+
+import React from "react";
+import "../styles/Services.css";
 
 const servicesData = [
   {
