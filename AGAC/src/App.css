@@ -431,19 +431,20 @@
 .fifth-home {
   display: flex;
   justify-content:center;
-  align-items:end;
+  align-items:center;
   width: 100vw;
-  height: 50vh;
+  height: 56vh;
   position: relative;
-  gap: 2vw;
+  gap: 5vw;
   margin: 4rem 0rem;
 
 }
 .five-text{
   display: flex;
-  width: 25vw;
+  width: 350px;
   justify-content: center;
   flex-direction: column;
+  /* font-size: calc(0.8vw + 0.7vh + 0.5vmin); */
   gap: 10px;
 }
 .para-5 {

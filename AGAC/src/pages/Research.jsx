@@ -10,6 +10,26 @@ import research9 from "../../images/research9.png";
 import research19 from "../../images/research19last.png";
 import research20 from "../../images/research20last.png";
 import research21 from "../../images/research21last.png";
+import Res1 from "../vectors/Research1.png";
+import Res2 from "../vectors/Research2.png";
+import Res3 from "../vectors/Research3.png";
+import Res4 from "../vectors/Research4.png";
+import Res5 from "../vectors/Research5.png";
+import Res6 from "../vectors/Research6.png";
+import Res7 from "../vectors/Research7.png";
+import Res8 from "../vectors/Research8.png";
+import Res9 from "../vectors/Research9.png";
+import Res10 from "../vectors/Research10.png";
+import Res11 from "../vectors/Research11.png";
+
+function LegendItem({ colorClass, label }) {
+  return (
+    <div className="legend-item">
+      <div className={`color-box ${colorClass}`}></div>
+      <span>{label}</span>
+    </div>
+  );
+}
 
 function Research() {
   return (
@@ -110,9 +130,30 @@ function Research() {
         <div className="bg-customGreen flex items-center justify-center font-semibold">
           <h1 className="text-2xl text-white">Ongoing Projects </h1>
         </div>
-        <div className="bg-customPinkbg">
-          hi there
-                             {/* more code here to complete this section */}
+
+        <div className="bg-customPinkbg" style={{ height: "540px" }}>
+          <div className="cur-cards">
+            <div className="cur-cards-1">
+              <img src={Res1} alt="" />
+              <button>AI-driven Fish Farming</button>
+              <p>
+                This project uses AI to optimize fish farming practices,
+                increasing yield and sustainability. By monitoring environmental
+                conditions and fish behavior, AGAC develops algorithms that
+                improve feeding, health management, and resource utilization.
+              </p>
+            </div>
+            <div className="cur-cards-1">
+              <img src={Res2} alt="" />
+              <button>Genetic Enhancement of Aquatic Species</button>
+              <p>
+                AGAC researches genetic modifications to enhance aquatic
+                species' resistance to diseases and improve their nutritional
+                value. This project aims to create more resilient and nutritious
+                food sources, contributing to better health outcomes.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="bg-customGreen flex items-center justify-center font-semibold">
@@ -244,27 +285,123 @@ function Research() {
             Explore AGAC’s cutting-edge research facilities from the comfort of
             your own home with our interactive virtual lab tours.
           </div>
-
-                                {/* more code here to complete this section */}
+          <div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                height: "70vh",
+                textAlign: "center",
+                fontWeight: "bold",
+                color: "rgb(135, 134, 128)",
+                width: "50vw",
+                margin: "0 auto", 
+                gap: "20px"
+              }}
+            >
+              <img
+                src={Res11}
+                alt=""
+                style={{ height: "20vw", width: "50vw" }}
+              />
+              <p>
+                Watch our Introduction Video for a comprehensive overview of
+                AGAC's research facilities. Explore specific labs through these
+                detailed videos:
+              </p>
+              <ul style={{ listStyleType: "disc", paddingLeft: "20px",color:"rgb(59, 130, 246) " }}>
+                {" "}
+                {/* Ensure list has bullets */}
+                <li><a href="#">Genomics Lab Video</a></li>
+                <li><a href="#">AI and Data Analytics Center Video</a></li>
+                <li><a href="#">Aquaculture Research Facility Video</a></li>
+              </ul>
+            </div>
+          </div>
+          {/* more code here to complete this section */}
         </div>
 
         <div className="bg-customGreen flex items-center justify-center font-semibold">
           <h1 className="text-2xl text-white">Publications</h1>
         </div>
 
-        <div className="bg-customPinkbg flex justify-center py-12">
-          <span className="font-bold w-1/2 text-customBlackText leading-9 text-lg mb-10">
-            Access to research papers, articles, and findings published by AGAC
-            researchers. AGAC regularly publishes its research findings in
-            leading scientific journals, ensuring transparency and collaboration
-            within the scientific community. Explore our{" "}
-            <a href="#" className="text-blue-500">
-              research papers and articles
-            </a>{" "}
-            for in-depth insights. Here are a few of our recent publications:
-          </span>
+        <div className="bg-customPinkbg flex-col justify-center py-12 ">
+          <div className="cur-cards-0 px-96">
+            <span className="font-bold w-1/2 text-customBlackText leading-9 text-lg mb-10">
+              Access to research papers, articles, and findings published by
+              AGAC researchers. AGAC regularly publishes its research findings
+              in leading scientific journals, ensuring transparency and
+              collaboration within the scientific community. Explore our{" "}
+              <a href="#" className="text-blue-500">
+                research papers and articles
+              </a>{" "}
+              for in-depth insights. Here are a few of our recent publications:
+            </span>
+          </div>
+          <div className="cur-cards">
+            <div
+              className="cur-cards-1"
+              style={{ height: "400px", width: "300px" }}
+            >
+              <img src={Res3} alt="" />
+              <h2 style={{ padding: "10px" }}>
+                Genetic Engineering for Cancer Treatment
+              </h2>
 
-                                          {/* more content to write   */}
+              <p>
+                Revolutionizing cancer treatment with cutting-edge genetic
+                engineering, harnessing the power of AI to target and eradicate
+                cancer cells with precision. Our innovative approach offers hope
+                for a cure by reprogramming genes to fight the disease from
+                within. Join us in the quest to transform lives and defeat
+                cancer.
+              </p>
+            </div>
+            <div
+              className="cur-cards-1"
+              style={{ height: "400px", width: "300px" }}
+            >
+              <img src={Res4} alt="" />
+              <h2 style={{ padding: "10px" }}>
+                AI-driven precision nutrition systems
+              </h2>
+
+              <p>
+                Unlock the future of personalized health with AI-driven
+                precision nutrition systems. By analyzing genetic and health
+                data, we create tailored nutrition plans that optimize
+                individual well-being. Embrace a new era of nutrition science
+                that adapts to your unique genetic makeup for maximum health
+                benefits.
+              </p>
+            </div>
+            <div
+              className="cur-cards-1"
+              style={{ height: "400px", width: "300px" }}
+            >
+              <img src={Res5} alt="" />
+              <h2
+                style={{
+                  padding: "10px",
+                  display: "flex",
+                  alignItems: "center",
+                  textAlign: "center",
+                }}
+              >
+                Advanced techniques in sustainable aquaculture
+              </h2>
+
+              <p>
+                Lead the way in sustainable food production with advanced
+                aquaculture techniques. Our innovative methods enhance fish
+                farming efficiency and environmental stewardship. Join us in
+                revolutionizing aquaculture to ensure a sustainable and
+                nutritious food source for the future.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="bg-customGreen flex items-center justify-center font-semibold">
@@ -286,8 +423,21 @@ function Research() {
             advanced sensors, IoT devices, and automated lab instruments.
           </div>
 
-                                              {/* more content to add */}
-
+          <div className="research-pie">
+            <div className="legend">
+              <LegendItem colorClass="color-genetic" label="Genetic Data" />
+              <LegendItem
+                colorClass="color-environmental"
+                label="Environmental Data"
+              />
+              <LegendItem colorClass="color-health" label="Health Metrics" />
+            </div>
+            <img
+              src={Res6}
+              alt=""
+              style={{ width: "350px", height: "270px" }}
+            />
+          </div>
           <div className="text-black font-bold text-2xl my-4 p-1">
             AI Algorithms{" "}
           </div>
@@ -302,7 +452,23 @@ function Research() {
             plans.
           </div>
 
-                                     {/* more content to add */}
+          <div className="bar-chart-container">
+            <img src={Res7} alt="" style={{ width: "70vw", height: "40vw" }} />
+            <div className="legend-2">
+              <div className="legend-item">
+                <div className="legend-color predictive"></div>
+                <div className="legend-label">Predictive AI</div>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color analytical"></div>
+                <div className="legend-label">Analytical AI</div>
+              </div>
+              <div className="legend-item">
+                <div className="legend-color diagnostic"></div>
+                <div className="legend-label">Diagnostic AI</div>
+              </div>
+            </div>
+          </div>
           <div className="text-black font-bold text-2xl my-4 p-1">
             Analytics Capabilties
           </div>
@@ -312,7 +478,60 @@ function Research() {
             insights from collected data, enhancing decision-making and research
             outcomes.
           </div>
-                                       {/* more content to add */}
+          {/* more content to add */}
+
+          <div className="text-black font-bold text-2xl my-4 p-1">
+            <h2> Data Analytics Technique </h2>
+          </div>
+          <div className="cur-cards">
+            <div
+              className="cur-cards-1"
+              style={{ height: "310px", width: "250px", overflow: "hidden" }}
+            >
+              <img src={Res8} alt="" />
+              <h2 style={{ padding: "10px" }}>Descriptive Analytics</h2>
+
+              <p>
+                Summarizes and interprets historical data to understand past
+                events. Tools include dashboards, reporting tools, and data
+                visualization software like Tableau and Power BI.
+              </p>
+            </div>
+            <div
+              className="cur-cards-1"
+              style={{ height: "310px", width: "250px", overflow: "hidden" }}
+            >
+              <img src={Res9} alt="" />
+              <h2 style={{ padding: "10px" }}>Predictive Analytics</h2>
+
+              <p>
+                Forecasts future trends and outcomes based on historical data
+                using machine learning algorithms such as regression analysis
+                and neural networks.
+              </p>
+            </div>
+            <div
+              className="cur-cards-1"
+              style={{ height: "310px", width: "250px", overflow: "hidden" }}
+            >
+              <img src={Res10} alt="" />
+              <h2
+                style={{
+                  padding: "10px",
+                  display: "flex",
+                  alignItems: "center",
+                  textAlign: "center",
+                }}
+              >
+                Prescriptive Analytics
+              </h2>
+
+              <p>
+                Recommends actions based on data analysis through optimization
+                algorithms, decision analysis, and simulation modeling.
+              </p>
+            </div>
+          </div>
 
           <div className="text-black font-bold text-2xl my-4 p-1">
             {" "}

@@ -2,3 +2,83 @@
     background: linear-gradient(to right, #4BAF47 0%, #1F491E 100%);
 
 }
+.legend {
+    margin:50px 20px 0 0;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .color-genetic {
+    background-color: #004d00; /* Dark green */
+  }
+  
+  .color-environmental {
+    background-color: #00cc00; /* Medium green */
+  }
+  
+  .color-health {
+    background-color: #99ff99; /* Light green */
+  }
+.research-pie{
+    display: flex;
+    justify-items: center;
+    gap: 25vw;
+}  
+.bar-chart-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+
+
+.legend-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.legend-label {
+  font-size: 14px;
+}
+
+.predictive.legend-color {
+  background-color: #004d00;
+}
+
+.analytical.legend-color {
+  background-color: #008000;
+}
+
+.diagnostic.legend-color {
+  background-color: #66b266;
+}
