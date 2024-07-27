@@ -28,11 +28,10 @@
 }
 
 .logo img {
-    max-width: 25%; 
+    max-width: 20%; 
     height: auto;    
     margin-bottom: 15px; 
-    height: 60px;
-    width: auto;
+    
 }
 
 .ele {

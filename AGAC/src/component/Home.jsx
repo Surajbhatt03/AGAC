@@ -82,7 +82,7 @@ function Home() {
           </div>
           <div className="textContainer">
             <p className="introduction">Our Introductions</p>
-            <h1 className="title">AquaGenetics AI Labs.</h1>
+            <h1 className="title"> AquaGenetics AI Labs</h1>
             <p className="subtitle">
               Our fish tanks and biofilters work in harmony to provide
               nutrient-rich water for the plants
