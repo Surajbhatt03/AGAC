@@ -166,6 +166,14 @@ text-align: left;
   color: #000000;
 }
 
+.card-title-precision {
+  margin-left: 50px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight:800;
+  color: #000000;
+}
+
 .card-text {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;

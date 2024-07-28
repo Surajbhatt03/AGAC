@@ -143,7 +143,7 @@ const Services = () => {
                 alt="Services6"
               />
               <div className="card-body">
-                <h5 className="card-title">Precision Nutrition System</h5>
+                <h5 className="card-title-precision">Precision Nutrition System</h5>
                 <p className="card-text">
                   The Precision Nutrition System™ uses genetic and health data
                   to develop personalized nutrition plans. These plans aim to
