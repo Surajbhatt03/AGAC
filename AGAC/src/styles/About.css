@@ -4,8 +4,8 @@
 }
 
 .image-x img {
-  width: 320px;
-  height: 300px; 
+  width: 25vw;
+  height: 220px; 
   /* object-fit: cover;  */
   border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -119,11 +119,14 @@ body {
   display: flex;
   flex-direction: column; 
   align-items: center; 
+  gap: 20px;
+
 }
 
 
 .right-section h2 {
   margin-top: 0;
+  padding: 10px;
 }
 
 
@@ -192,20 +195,34 @@ body {
 
 
 .introduction {
-  padding: 40px 20px;
+  padding: 30px 20px;
   background-color: #f1f1f1; 
+  color: black;
+  font-family: 'Manrope', 'sans-serif';
+  
 }
 
 
-.introduction h2 {
+.introduction-about h2 {
   background-color: grey;
   opacity: 0.8; 
   font-size: 30px; 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: black; 
   text-align: center; 
+  padding: 8px;
+  font-weight: bolder;
 }
-
+.timeline  h2 {
+  background-color: grey;
+  opacity: 0.8; 
+  font-size: 30px; 
+  margin-bottom: 10px;
+  color: black; 
+  text-align: center; 
+  padding: 8px;
+  font-weight: bolder;
+}
 
 .intro-container {
   display: flex;
@@ -224,10 +241,14 @@ body {
 
 .intro-section.left {
   justify-content: flex-start; 
+  gap: 10vw;
+  
 }
 
 .intro-section.right {
   justify-content: flex-end;
+  gap: 10vw;
+  margin-top: 5vw;
 }
 
 
@@ -305,7 +326,9 @@ body {
 
 .goal p {
   font-size: 18px;
-  margin-bottom: 0px;
+  margin:0 0px 0 3vw;
+  text-align: start;
+
 }
 
 .goal button {
@@ -324,7 +347,10 @@ body {
   background-color:green; 
 }
 
-
+.hexer{
+  display: flex;
+  gap: 10px;
+}
 
 .timeline {
   width: 100%;
@@ -471,15 +497,15 @@ body {
 
 .button-container {
   display: flex;
-  justify-content:flex-end;
+  justify-content:center;
   gap: 20px; /* Adjust gap between buttons */
   width: 100%;
+  
 }
 
 button {
   padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
+  
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -494,26 +520,33 @@ button:hover {
 /* Parent Company Section */
 
 .parent-company-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   text-align: center;
   margin-top: 20px;
-  /* margin-bottom: 40px; */
+  margin-bottom: 7vw;
+ 
 }
 
 .parent-company-title {
   font-size: 30px;
   margin-bottom: 20px;
   color: black; /* Adjust color as needed */
+  
 }
 
 .parent-company {
-  width: 100%;
+  width: 80%;
   max-width: 100%; 
   padding: 20px;
   background-color: #28a745;
   color: white;
   text-align: center;
   border-radius: 0px; 
+   
 }
 
 .parent-company-content {
@@ -525,7 +558,7 @@ button:hover {
 }
 
 .parent-company-image {
-  width: 600px; 
+  width: 500px; 
   height: 100%;
   margin-right: 20px;
   border-radius: 0px;
@@ -595,3 +628,14 @@ button:hover {
   margin: 0;
 }
 
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Optional: adds space between the buttons */
+}
+
+.bg-gray-500 {
+  width: 200px; /* Optional: set a fixed width for the buttons */
+  margin-bottom: 10px; /* Optional: adds space between the buttons */
+}

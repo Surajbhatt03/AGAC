@@ -22,9 +22,9 @@ const News = () => {
           {/* This div is the header image */}
         </div>
       </header>
-      <div className="bg-green-700 py-2 text-white text-2xl font-bold text-center">
-        NEWS AND EVENTS
-      </div>
+      <div className="gradient-background flex items-center justify-center font-semibold">
+          <h1 className="text-2xl text-white">News And Events</h1>
+        </div>
       <main className="px-4 py-8">
         <section id="events" className="text-center">
           <h3 className="text-2xl font-extrabold mb-6">EVENTS CALENDAR</h3>

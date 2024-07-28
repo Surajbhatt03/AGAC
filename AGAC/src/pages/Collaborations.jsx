@@ -20,9 +20,9 @@ function Collaborations() {
       <div className="main-image">
         <img src={Collab1} alt="Collaboration Image 1" />
       </div>
-      <div className="collab-text">
-        <h1>Collaborations</h1>
-      </div>
+      <div className="gradient-background flex items-center justify-center font-semibold">
+          <h1 className="text-2xl text-white">Collaborations</h1>
+        </div>
       <div className="partner">
         <h2>Partnership Opportunities</h2>
         <div className="coll-cards2">
@@ -130,7 +130,7 @@ function Collaborations() {
       <div className="Funding">
         <h2>Funding Opportunities</h2>
         <div className="cur-cards">
-          <div className="cur-cards-1">
+          <div className="cur-cards-3">
             <img src={Collab10} alt="" />
             <button>Government Grants</button>
             <p>
@@ -140,7 +140,7 @@ function Collaborations() {
               projects.
             </p>
           </div>
-          <div className="cur-cards-1">
+          <div className="cur-cards-3">
             <img src={Collab11} alt="" />
             <button>Private Foundations</button>
             <p>
@@ -150,7 +150,7 @@ function Collaborations() {
               advancements.
             </p>
           </div>
-          <div className="cur-cards-1">
+          <div className="cur-cards-3">
             <img src={Collab12} alt="" />
             <button>Industry Sponsorships</button>
             <p>

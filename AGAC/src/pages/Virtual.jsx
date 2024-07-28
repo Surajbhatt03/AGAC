@@ -28,9 +28,10 @@ const Virtual = () => {
           {/* This div is the header image */}
         </div>
       </header>
-      <div className="bg-green-700 py-2 text-white text-2xl font-bold text-center">
-        Advanced Features and Virtual Tools
-      </div> 
+      <div className="gradient-background flex items-center justify-center font-semibold">
+          <h1 className="text-2xl text-white">Advanced Features and Virtual Tools</h1>
+        </div>
+      
 
       <section className="py-8">
         <div className="container mx-auto px-4">

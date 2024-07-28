@@ -5,13 +5,15 @@ function About() {
     <>
       <section class="image-x">
         <img src="images/about1.jpg" alt="image" />
-        <img src="images/about2.jpg" alt="image" />
+        <img src="images/about2.png" alt="image" />
         <img src="images/about3.jpg" alt="image" />
         <img src="images/about4.jpg" alt="image" />
       </section>
 
       <section class="about-us">
-        <div class="about-header">ABOUT US</div>
+        <div className="gradient-background flex items-center justify-center font-semibold">
+          <h1 className="text-2xl text-white">About Us</h1>
+        </div>
         <div class="container-y">
           <div class="left-section">
             <div class="image-grid">
@@ -23,20 +25,20 @@ function About() {
           <div class="importance">
             <h2>Importance of integrating AI and aquaculture</h2>
             <div class="buttons">
-              <ul>
+              <ul style={{ color: "green" }}>
                 <li>
-                  <button>Community Engagement</button>
+                  <a href="#">Innovative Technology</a>
                 </li>
                 <li>
-                  <button>Competitive Pricing</button>
+                  <a href="#">Competitive Pricing</a>
                 </li>
                 <li>
-                  <button>Innovative Technology</button>
+                  <a href="#">Community Engagement</a>
                 </li>
               </ul>
             </div>
             <div class="points">
-              <ul>
+              <ul style={{ fontWeight: "bold", marginTop: "10vw" }}>
                 <li>Environmental stewardship</li>
                 <li>Economic growth</li>
                 <li>Developing solutions to enhance food security</li>
@@ -63,9 +65,9 @@ function About() {
         </div>
       </section>
 
-      <section class="introduction">
+      <section class="introduction-about">
         <h2>Introduction to AGAC</h2>
-        <section class="introduction">
+        <div class="introduction">
           <div class="intro-section left">
             <img src="images/about8.jpg" alt=" Image" class="intro-image" />
             <p>
@@ -93,60 +95,79 @@ function About() {
               nutrition.
             </p>
           </div>
-        </section>
+        </div>
       </section>
 
       <section class="goals">
         <h2>Our Goals</h2>
         <div class="goal-container">
           <img src="images/about10.jpg" alt="Image" class="goal-image" />
-          <ul class="goal-list">
-            <li class="goal">
-              <h3>
-                <img src="images/tick.png" alt="Images" class="goal-icon" />{" "}
-                Advancing Genomic Research
-              </h3>
+          <div class="goal-list">
+            <div class="goal">
+              <div className="hexer">
+                <div>
+                  <img src="images/tick.png" alt="Images" class="goal-icon" />{" "}
+                </div>
+                <div>
+                  <h3> Advancing Genomic Research</h3>
+                </div>
+              </div>
+
               <p>
                 Utilizing state-of-the-art genetic engineering and AI
                 technologies to develop innovative solutions for genetic
                 diseases and improve crop and livestock resilience.
               </p>
-            </li>
-            <li class="goal">
-              <h3>
-                <img src="images/tick1.png" alt="Images" class="goal-icon" />{" "}
-                Precision Nutrition
-              </h3>
+            </div>
+            <div class="goal">
+              <div className="hexer">
+                <div>
+                  <img src="images/tick1.png" alt="Images" class="goal-icon" />{" "}
+                </div>
+                <div>
+                  <h3> Precision Nutrition</h3>
+                </div>
+              </div>
+
               <p>
                 Developing personalized nutrition plans based on genetic and
                 health data to optimize individual health outcomes and prevent
                 chronic diseases.
               </p>
-            </li>
-            <li class="goal">
-              <h3>
-                <img src="images/tick2.png" alt="Images" class="goal-icon" />{" "}
-                Environmental Conservation
-              </h3>
+            </div>
+            <div class="goal">
+              <div className="hexer">
+                <div>
+                  <img src="images/tick2.png" alt="Images" class="goal-icon" />{" "}
+                </div>
+                <div>
+                  <h3>Environmental Conservation</h3>
+                </div>
+              </div>
               <p>
                 Implementing sustainable practices that minimize environmental
                 impact, promote biodiversity, and ensure the health of
                 ecosystems.
               </p>
-            </li>
-            <li class="goal">
-              <h3>
-                <img src="images/tick3.png" alt="Images" class="goal-icon" />{" "}
-                Sustainable Food Production
-              </h3>
+            </div>
+            <div class="goal">
+              <div className="hexer">
+                <div>
+                  <img src="images/tick3.png" alt="Images" class="goal-icon" />{" "}
+                </div>
+                <div>
+                  <h3> Sustainable Food Production</h3>
+                </div>
+              </div>
+
               <p>
                 Enhancing aquaculture practices to increase efficiency, yield,
                 and sustainability, ensuring a reliable food supply for future
                 generations.
               </p>
-              <button>Discover More</button>
-            </li>
-          </ul>
+              <button style={{margin:"20px 0 0 20px"}}>Discover More</button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -203,7 +224,9 @@ function About() {
               fostering a culture of innovation.
             </p>
             <div class="button-container">
-              <button>Know More</button>
+              <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+                Know More
+              </button>
             </div>
           </div>
           <div class="member">
@@ -215,7 +238,9 @@ function About() {
               has driven AGAC's technological advancements.
             </p>
             <div class="button-container">
-              <button>Know More</button>
+              <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+                Know More
+              </button>
             </div>
           </div>
           <div class="member">
@@ -227,7 +252,9 @@ function About() {
               contributed to AGAC's research capabilities and impact.
             </p>
             <div class="button-container">
-              <button>Know More</button>
+              <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+                Know More
+              </button>
             </div>
           </div>
         </div>
@@ -251,7 +278,9 @@ function About() {
                 of life. Their support and resources have been instrumental in
                 the establishment and growth of AGAC.
               </p>
-              <button>Know More</button>
+              <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+                Know More
+              </button>
             </div>
           </div>
         </div>
@@ -259,8 +288,12 @@ function About() {
 
       <section class="question-section">
         <div class="overlay">
-          <h2>Let us Know</h2>
-          <p>Have Any Question?</p>
+          <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+            Let us Know
+          </button>
+          <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
+            have any Questions?
+          </button>
         </div>
       </section>
     </>
