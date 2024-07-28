@@ -343,7 +343,7 @@ function Research() {
           <div className="cur-cards">
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res3} alt="" />
               <h2 style={{ padding: "10px" }}>
@@ -361,7 +361,7 @@ function Research() {
             </div>
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res4} alt="" />
               <h2 style={{ padding: "10px" }}>
@@ -379,7 +379,7 @@ function Research() {
             </div>
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res5} alt="" />
               <h2
