@@ -81,7 +81,7 @@ function Home() {
             <img src="./images/home6.png" alt="Plants" className="subImage" />
           </div>
           <div className="textContainer">
-            <p className="introduction">Our Introductions</p>
+            <p className="introductions">Our Introductions</p>
             <h1 className="title"> AquaGenetics AI Labs</h1>
             <p className="subtitle">
               Our fish tanks and biofilters work in harmony to provide
@@ -105,8 +105,8 @@ function Home() {
               </div>
             </div>
             <ul className="list">
-              <li>Lorem Ipsum is not simply random text.</li>
-              <li>Making this the first true generator on the internet.</li>
+              <li> <span class="green-tick">&#x2705;</span>Lorem Ipsum is not simply random text.</li>
+              <li> <span class="green-tick">&#x2705;</span>Making this the first true generator on the internet.</li>
             </ul>
             <button className="button">Discover More</button>
           </div>
@@ -202,17 +202,17 @@ function Home() {
             have suffered alteration in some form by injected humor or random
             word which don't look even.
           </div>
-          <div className="five-h4">Quality Organic Vegetables</div>
+          <div className="five-h4"><span class="green-tick">&#x2705;</span>Quality Organic Vegetables</div>
           <div className="five-p">
             There are variation You need to be sure there is anything hidden in
             the middle of text.
           </div>
-          <div className="five-h4">Sustainable food production.</div>
+          <div className="five-h4"><span class="green-tick">&#x2705;</span>Sustainable food production.</div>
           <div className="five-p">
             There are variation You need to be sure there is anything hidden in
             the middle of text.
           </div>
-          <div className="five-h4">Cost Efficiency</div>
+          <div className="five-h4"><span class="green-tick">&#x2705;</span>Cost Efficiency</div>
           <div className="five-p">
             There are variation You need to be sure there is anything hidden in
             the middle of text.
