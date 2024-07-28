@@ -27,10 +27,10 @@ export default function Navbar() {
           </div>
           <div className="email">
             <div className="head1">Send email</div>
-            <div className="head2">example.com</div>
+            <div className="head2">support@agac.com</div>
           </div>
           <div className="loc">
-            <div className="head1">address</div>
+            <div className="head1">Address</div>
             <div className="head2">Dallas , United states</div>
           </div>
         </div>

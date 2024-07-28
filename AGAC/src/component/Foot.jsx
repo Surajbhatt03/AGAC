@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-container">
             <div className="footer-section logo">
                 <img src="./images/logo (2).png" alt="Logo" />
-                <p>AGAC offers comprehensive support for all platform users.</p>
+                <p>AquaGenetics AI Labs offers comprehensive support for all platform users.</p>
                 <div className="social-icons">
                     <a href="#"><i className="fab fa-twitter"></i></a>
                     <a href="#"><i className="fab fa-facebook-f"></i></a>
@@ -52,7 +52,7 @@ function Footer() {
             </div>
         </div>
         <div className="footer-bottom">
-            <p>© All Copyright 2024 by AGAC</p>
+            <p>© All Copyright 2024 by AquaGenetics AI Labs</p>
             <div className="footer-links">
                 <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
             </div>
