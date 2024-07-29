@@ -21,8 +21,8 @@ function Collaborations() {
         <img src={Collab1} alt="Collaboration Image 1" />
       </div>
       <div className="gradient-background flex items-center justify-center font-semibold">
-          <h1 className="text-2xl text-white">Collaborations</h1>
-        </div>
+        <h1 className="text-2xl text-white">Collaborations</h1>
+      </div>
       <div className="partner">
         <h2>Partnership Opportunities</h2>
         <div className="coll-cards2">
@@ -38,7 +38,7 @@ function Collaborations() {
             </div>
           </div>
           <div className="card-1">
-            <img src={Collab3} alt="Collaboration Image 2" />
+            <img src={Collab3} alt="Collaboration Image 3" />
             <h2>Technology Development</h2>
             <div className="Card-para">
               <p>
@@ -51,7 +51,7 @@ function Collaborations() {
         </div>
         <div className="coll-card1">
           <div className="card-1">
-            <img src={Collab4} alt="Collaboration Image 2" />
+            <img src={Collab4} alt="Collaboration Image 4" />
             <h2>Educational Programs</h2>
             <div className="Card-para">
               <p>
@@ -66,7 +66,7 @@ function Collaborations() {
           <h2>Current Partners</h2>
           <div className="cur-cards">
             <div className="cur-cards-1">
-              <img src={Collab5} alt="" />
+              <img src={Collab5} alt="University of Genomics" />
               <button>University of Genomics</button>
               <p>
                 The University of Genomics specializes in genetic research and
@@ -78,7 +78,7 @@ function Collaborations() {
               </p>
             </div>
             <div className="cur-cards-1">
-              <img src={Collab6} alt="" />
+              <img src={Collab6} alt="Global Aquaculture Alliance" />
               <button>Global Aquaculture Alliance</button>
               <p>
                 The Global Aquaculture Alliance promotes sustainable aquaculture
@@ -89,7 +89,7 @@ function Collaborations() {
               </p>
             </div>
             <div className="cur-cards-1">
-              <img src={Collab7} alt="" />
+              <img src={Collab7} alt="AI Research Institute" />
               <button>AI Research Institute</button>
               <p>
                 The AI Research Institute leads in AI research and development.
@@ -106,7 +106,7 @@ function Collaborations() {
         <h2>Collaborative Projects</h2>
         <div className="cur-cards">
           <div className="cur-cards-1">
-            <img src={Collab9} alt="" />
+            <img src={Collab9} alt="AI enhanced Disease Detection" />
             <button>AI enhanced Disease Detection</button>
             <p>
               A project with the AI Research Institute to develop AI algorithms
@@ -116,7 +116,7 @@ function Collaborations() {
             </p>
           </div>
           <div className="cur-cards-1">
-            <img src={Collab8} alt="" />
+            <img src={Collab8} alt="Sustainable Aquaculture Initiative" />
             <button>Sustainable Aquaculture Initiative</button>
             <p>
               Collaboration with the Global Aquaculture Alliance to promote
@@ -131,17 +131,17 @@ function Collaborations() {
         <h2>Funding Opportunities</h2>
         <div className="cur-cards">
           <div className="cur-cards-3">
-            <img src={Collab10} alt="" />
+            <img src={Collab10} alt="Government Grants" />
             <button>Government Grants</button>
             <p>
-              tInformation on national and international grants available for
+              Information on national and international grants available for
               research and development. AGAC assists partners in identifying and
               applying for these funding opportunities to support innovative
               projects.
             </p>
           </div>
           <div className="cur-cards-3">
-            <img src={Collab11} alt="" />
+            <img src={Collab11} alt="Private Foundations" />
             <button>Private Foundations</button>
             <p>
               Opportunities for funding from private foundations and
@@ -151,7 +151,7 @@ function Collaborations() {
             </p>
           </div>
           <div className="cur-cards-3">
-            <img src={Collab12} alt="" />
+            <img src={Collab12} alt="Industry Sponsorships" />
             <button>Industry Sponsorships</button>
             <p>
               Potential sponsorships and funding from industry partners. AGAC

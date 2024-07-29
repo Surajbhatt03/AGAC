@@ -1,5 +1,4 @@
 import React from "react";
-
 import Contact1 from "../vectors/contact1.png";
 import "../styles/Contact.css";
 
@@ -21,7 +20,6 @@ function Contact() {
           <div className="contact-h1">
             <h1>Research Collaboration:</h1>
           </div>
-
           <p>Dr. John Smith, Head of Collaborations</p>
           <p>Email: j.smith@agac.com</p>
         </div>
@@ -29,7 +27,6 @@ function Contact() {
           <div className="contact-h1">
             <h1>Media Inquiries</h1>
           </div>
-
           <p>Emily White, Communications Director</p>
           <p>Email: e.white@agac.com</p>
         </div>
@@ -50,27 +47,18 @@ function Contact() {
           <span
             style={{
               fontFamily: "'Covered By Your Grace'",
-              fontSize: "25px",
+              fontSize: `calc(0.8vw + 0.7vh + 0.5vmin)`,
               color: "#EEC044",
             }}
           >
             Contact us
           </span>
           <h1>Write a Message</h1>
-          <form>
+          <form className="contact-input">
             <input type="text" name="name" placeholder="Name" required />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
+            <input type="email" name="email" placeholder="Email Address" required />
             <input type="tel" name="phone" placeholder="Phone*" required />
-            <textarea
-              name="message"
-              placeholder="Write a Message"
-              required
-            ></textarea>
+            <textarea name="message" placeholder="Write a Message" required></textarea>
             <button type="submit">Send a Message</button>
           </form>
         </div>
