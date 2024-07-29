@@ -1,13 +1,14 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../styles/footer.css'; 
+import img1 from "./../../images/logo (2).png"
 
 function Footer() {
   return (
     <footer>
         <div className="footer-container">
             <div className="footer-section logo">
-                <img src="./images/logo (2).png" alt="Logo" />
+                <img src={img1} alt="Logo" />
                 <p>AquaGenetics AI Labs offers comprehensive support for all platform users.</p>
                 <div className="social-icons">
                     <a href="#"><i className="fab fa-twitter"></i></a>

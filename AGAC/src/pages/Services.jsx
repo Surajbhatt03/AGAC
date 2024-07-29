@@ -1,5 +1,12 @@
 import React from "react";
 import "../styles/services.css";
+import img1 from "../../images/Services1.png"
+import img2 from "../../images/Services2.png"
+import img3 from "../../images/Services3.png"
+import img4 from "../../images/Services4.png"
+import img5 from "../../images/Services5.png"
+import img6 from "../../images/Services6.png"
+import img7 from "../../images/Services7.png"
 
 const servicesData = [
   {
@@ -40,12 +47,12 @@ const Services = () => {
       <div className="aquaculture-container">
         <header className="header">
           <div className="col-md-12">
-            <img src=".\images\Services1.png" alt="Services1" />
+            <img src={img1} alt="Services1" />
           </div>
         </header>
         <section className="aquaculture-section">
           <div className="image">
-            <img src=".\images\Services2.png" alt="Services2" />
+            <img src={img2} alt="Services2" />
           </div>
           <div className="content">
             <h2 className="whatwedo">What We Do</h2>
@@ -72,7 +79,7 @@ const Services = () => {
           <div className="col-md-3">
             <div className="card-x">
               <img
-                src=".\images\Services3.png"
+                src={img3}
                 className="card-img-top"
                 alt="Services3"
               />
@@ -85,7 +92,7 @@ const Services = () => {
                   with clients to design and execute research that delivers
                   impactful results.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary text-white">
                   Read More
                 </a>
               </div>
@@ -94,7 +101,7 @@ const Services = () => {
           <div className="col-md-3">
             <div className="card-x">
               <img
-                src=".\images\Services4.png"
+                src={img4}
                 className="card-img-top"
                 alt="Services4"
               />
@@ -107,7 +114,7 @@ const Services = () => {
                   with clients to design and execute research that delivers
                   impactful results.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary text-white">
                   Read More
                 </a>
               </div>
@@ -116,7 +123,7 @@ const Services = () => {
           <div className="col-md-3">
             <div className="card-x">
               <img
-                src=".\images\Services5.png"
+                src={img5}
                 className="card-img-top"
                 alt="Services5"
               />
@@ -129,7 +136,7 @@ const Services = () => {
                   genetic research, and aquaculture techniques, supporting
                   continuous learning and skill development.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary text-white">
                   Read More
                 </a>
               </div>
@@ -138,7 +145,7 @@ const Services = () => {
           <div className="col-md-3">
             <div className="card-x">
               <img
-                src=".\images\Services6.png"
+                src={img6}
                 className="card-img-top"
                 alt="Services6"
               />
@@ -151,7 +158,7 @@ const Services = () => {
                   adjustments based on genetic predispositions and health
                   conditions.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="#" className="btn btn-primary text-white">
                   Read More
                 </a>
               </div>
@@ -162,7 +169,7 @@ const Services = () => {
           <div className="col-md-12">
             <div className="video-container">
               <img
-                src=".\images\Services7.png"
+                src={img7}
                 className="img-fluid"
                 alt="Services7"
               />

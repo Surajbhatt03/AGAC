@@ -1,24 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
+import img1 from "./../../images/logo (2).png"
+import img2 from "./../../images/TwitLogo.png"
+import img3 from "./../../images/Fblogo.png"
+import img4 from "./../../images/PinLogo.png"
+import img5 from "./../../images/InstaLogo.png"
+
 
 export default function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar-1">
-        <div className="logo"><img src="./images/logo (2).png" alt="Logo" /></div>
+        <div className="logo"><img src={img1} alt="Logo" /></div>
         <div className="ele">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="./images/TwitLogo.png" alt="Twitter Logo" />
+            <img src={img2} alt="Twitter Logo" />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="./images/Fblogo.png" alt="Facebook Logo" />
+            <img src={img3} alt="Facebook Logo" />
           </a>
           <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-            <img src="./images/PinLogo.png" alt="Pinterest Logo" />
+            <img src={img4} alt="Pinterest Logo" />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="./images/InstaLogo.png" alt="Instagram Logo" />
+            <img src={img5} alt="Instagram Logo" />
           </a></div>
         <div className="contact-us">
           <div className="cont">

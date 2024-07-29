@@ -1,13 +1,32 @@
 import React from "react";
 import "../styles/About.css";
+import img1 from "../../images/about1.jpg"
+import img2 from "../../images/about2.png"
+import img3 from "../../images/about3.jpg"
+import img4 from "../../images/about4.jpg"
+import img5 from "../../images/about5.jpg"
+import img6 from "../../images/about6.jpg"
+import img7 from "../../images/about7.jpg"
+import img8 from "../../images/about8.jpg"
+import img9 from "../../images/about9.jpg"
+import img10 from "../../images/about10.jpg"
+import img11 from "../../images/tick.png"
+import img12 from "../../images/tick1.png"
+import img13 from "../../images/tick2.png"
+import img14 from "../../images/tick3.png"
+import img15 from "../../images/about11.jpg"
+
+ 
+
+
 function About() {
   return (
     <>
       <section class="image-x">
-        <img src="images/about1.jpg" alt="image" />
-        <img src="images/about2.png" alt="image" />
-        <img src="images/about3.jpg" alt="image" />
-        <img src="images/about4.jpg" alt="image" />
+        <img src={img1} alt="image" />
+        <img src={img2} alt="image" />
+        <img src={img3} alt="image" />
+        <img src={img4} alt="image" />
       </section>
 
       <section class="about-us">
@@ -17,9 +36,9 @@ function About() {
         <div class="container-y">
           <div class="left-section">
             <div class="image-grid">
-              <img src="images/about5.jpg" alt=" Image" class="image-small" />
-              <img src="images/about6.jpg" alt=" Image" class="image-large" />
-              <img src="images/about7.jpg" alt=" Image" class="image-large" />
+              <img src={img5} alt=" Image" class="image-small" />
+              <img src={img6} alt=" Image" class="image-large" />
+              <img src={img7} alt=" Image" class="image-large" />
             </div>
           </div>
           <div class="importance">
@@ -69,7 +88,7 @@ function About() {
         <h2>Introduction to AGAC</h2>
         <div class="introduction">
           <div class="intro-section left">
-            <img src="images/about8.jpg" alt=" Image" class="intro-image" />
+            <img src={img8} alt=" Image" class="intro-image" />
             <p>
               The Aquatech Genomic Agriculture Center (AGAC) is a pioneering
               research institution dedicated to advancing the integration of
@@ -82,7 +101,7 @@ function About() {
             </p>
           </div>
           <div class="intro-section right">
-            <img src="images/about9.jpg" alt=" Image 2" class="intro-image" />
+            <img src={img9} alt=" Image 2" class="intro-image" />
             <p>
               The Aquatech Genomic Agriculture Center (AGAC) is a
               forward-thinking institution at the cutting edge of agricultural
@@ -101,12 +120,12 @@ function About() {
       <section class="goals">
         <h2>Our Goals</h2>
         <div class="goal-container">
-          <img src="images/about10.jpg" alt="Image" class="goal-image" />
+          <img src={img10} alt="Image" class="goal-image" />
           <div class="goal-list">
             <div class="goal">
               <div className="hexer">
                 <div>
-                  <img src="images/tick.png" alt="Images" class="goal-icon" />{" "}
+                  <img src={img11} alt="Images" class="goal-icon" />{" "}
                 </div>
                 <div>
                   <h3> Advancing Genomic Research</h3>
@@ -122,7 +141,7 @@ function About() {
             <div class="goal">
               <div className="hexer">
                 <div>
-                  <img src="images/tick1.png" alt="Images" class="goal-icon" />{" "}
+                  <img src={img12} alt="Images" class="goal-icon" />{" "}
                 </div>
                 <div>
                   <h3> Precision Nutrition</h3>
@@ -138,7 +157,7 @@ function About() {
             <div class="goal">
               <div className="hexer">
                 <div>
-                  <img src="images/tick2.png" alt="Images" class="goal-icon" />{" "}
+                  <img src={img13} alt="Images" class="goal-icon" />{" "}
                 </div>
                 <div>
                   <h3>Environmental Conservation</h3>
@@ -153,7 +172,7 @@ function About() {
             <div class="goal">
               <div className="hexer">
                 <div>
-                  <img src="images/tick3.png" alt="Images" class="goal-icon" />{" "}
+                  <img src={img14} alt="Images" class="goal-icon" />{" "}
                 </div>
                 <div>
                   <h3> Sustainable Food Production</h3>
@@ -265,7 +284,7 @@ function About() {
         <div class="parent-company">
           <div class="parent-company-content">
             <img
-              src="images/about11.jpg"
+              src={img15}
               alt=" Image"
               class="parent-company-image"
             />
@@ -292,7 +311,7 @@ function About() {
             Let us Know
           </button>
           <button class="bg-gray-500 text-white border-none px-4 py-2 rounded cursor-pointer hover:bg-gray-600">
-            have any Questions?
+            Have any Questions?
           </button>
         </div>
       </section>
