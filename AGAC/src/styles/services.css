@@ -3,10 +3,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 /* Header */
 .header img {
-  width: 100%;
-  height: auto;
+  width: 150vw;
+  height: 300px;
 }
 
 /* Aquaculture Section */
@@ -20,7 +22,7 @@ body {
   margin-bottom: auto;
 }
 
-.image {
+.aquaculture-section.image {
   flex: 1;
   padding-left: 30px;
   padding-top: 20px;
@@ -30,7 +32,7 @@ body {
   top: 39px;
   left: -255px;
   width: 50vw;
-  height: 40vw;
+  height: 50vw;
   box-shadow: 0px 4px 4px 0px #00000040;
   border: 1px solid #000000
 }
@@ -213,6 +215,8 @@ text-align: right;
 .video-container {
   position: relative;
   width: 100%;
+  margin-bottom: 0%;
+ 
 }
 
 .img-fluid {
@@ -231,6 +235,8 @@ text-align: right;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+ 
+ 
 }
 
 .play-button {
@@ -246,7 +252,7 @@ text-align: right;
 
 .bg-success {
   background-color: #4BAF47 !important;
-  width: 99.7vw;
+  width: 80.7vw;
   color: white;
   display: flex;
   flex-direction: column; 
@@ -255,6 +261,8 @@ text-align: right;
   font-family: 'Pacifico', cursive;
   text-align: center;
   position: relative;
+  height:100%;
+  margin-top:0%;
 }
 
 .text-light {
