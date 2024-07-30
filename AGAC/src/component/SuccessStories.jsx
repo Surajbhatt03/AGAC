@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import img1 from "../../images/user1.png"
+import img2 from "../../images/user2.png"
+import img3 from "../../images/user3.png"
+
 
 const SuccessStories = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,17 +11,17 @@ const SuccessStories = () => {
     {
       text: "There are many variations of passages of available but the majority have suffered alteration in some form by injected humor or random word which don't look even.",
       name: "Bonnie Tolbert",
-      image: "./images/user1.png",
+      image: img1,
     },
     {
       text: "Another user passage that explains their success story with AGAC. It's concise and to the point.",
       name: "John Doe",
-      image: "./images/user2.png",
+      image: img2,
     },
     {
       text: "A different user's perspective highlighting the benefits they've gained from AGAC's services.",
       name: "Jane Smith",
-      image: "./images/user3.png",
+      image: img3,
     },
   ];
 

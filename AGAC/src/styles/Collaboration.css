@@ -1,214 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
 }
 
 .partner {
-    font-size: 22px;
-    text-align: center;
+  font-size: 22px;
+  text-align: center;
 }
 
 .collab-text {
-    font-size: 25px;
-    background-color: green;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px 0;
+  font-size: 25px;
+  background-color: green;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
 }
 
-.coll-cards2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    padding: 0 0 80px 0;
+.coll-cards2, .coll-card1, .cur-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  padding: 0 0 80px 0;
 }
 
-.coll-cards2 > h2 {
-    font-weight: bold;
-    padding: 40px;
+.card-1, .cur-cards-1, .cur-cards-3 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(19, 237, 48);
+  border-radius: 8px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out; 
+  margin: 20px; /* Add margin for spacing when wrapping */
 }
 
-.coll-card1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    padding: 0 0 80px 0;
+.card-1:hover, .cur-cards-1:hover, .cur-cards-3:hover {
+  transform: scale(1.05); 
 }
 
-.card-1 {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(19, 237, 48);
-    border-radius: 8px;
-    height: 470px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s ease-in-out; 
-    margin: 20px; /* Add margin for spacing when wrapping */
-}
-
-.card-1:hover {
-    transform: scale(1.05); 
-}
-
-.card-1 > h2 {
-    padding: 15px;
+.card-1 > h2, .cur-cards-1 > h2, .cur-cards-3 > h2 {
+  padding: 15px;
 }
 
 h2 {
-    font-weight: bold;
-    padding: 40px 0;
+  font-weight: bold;
+  padding: 40px 0;
 }
 
-.Card-para {
-    width: 290px;
-    font-size: 13px;
-    color: #878680;
+.Card-para, .cur-cards-1 > p, .cur-cards-3 > p {
+  width: 290px;
+  font-size: 13px;
+  color: #878680;
 }
 
-.current {
-    text-align: center;
-    font-size: 20px;
+.current, .Collaborative, .Funding {
+  text-align: center;
+  font-size: 20px;
 }
 
-.cur-cards {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-}
-
-.cur-cards-1 {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(19, 237, 48);
-    border-radius: 8px;
-    height: 500px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s ease-in-out; 
-    margin: 20px; /* Add margin for spacing when wrapping */
-}
-
-.cur-cards-1:hover {
-    transform: scale(1.05); 
-}
-
-.cur-cards-1 > p {
-    font-size: 13px;
-    color: #878680;
-    width: 320px;
-}
-
-.cur-cards-1 > button {
-    background-color: #4BAF47;
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 5px;
-    padding: 5px;
-    margin: -20px 0 20px;
-}
-
-.cur-cards-3 > button {
-    background-color: #4BAF47;
-    color: aliceblue;
-    font-size: 15px;
-    border-radius: 5px;
-    padding: 5px;
-    margin: -20px 0 20px;
-}
-
-.Collaborative {
-    text-align: center;
-    font-size: 20px;
-}
-
-.Funding {
-    text-align: center;
-    font-size: 20px;
+.cur-cards-1 > button, .cur-cards-3 > button {
+  background-color: #4BAF47;
+  color: aliceblue;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: -20px 0 20px;
 }
 
 .call > img {
-    margin: 90px 0 0 0;
-    width: 100vw;
+  margin: 90px 0 0 0;
+  width: 100%;
 }
 
 .call > button {
-    background-color: #4BAF47;
-    color: aliceblue;
-    position: absolute;
-    left: 45%;
-    padding: 10px;
-    margin-top: -125px;
-    border-radius: 10px;
+  background-color: #4BAF47;
+  color: aliceblue;
+  position: absolute;
+  left: 45%;
+  padding: 10px;
+  margin-top: -125px;
+  border-radius: 10px;
 }
 
 .main-image img {
-    width: 100vw;
-    object-fit: contain;
+  width: 100%;
+  object-fit: cover;
 }
 
-.cur-cards-3 {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(19, 237, 48);
-    border-radius: 8px;
-    height: 450px;
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s ease-in-out; 
-    margin: 20px; /* Add margin for spacing when wrapping */
-}
-.cur-cards-3 > p {
-    font-size: 13px;
-    color: #878680;
-    width: 320px;
-}
 /* Media Queries */
 @media (max-width: 768px) {
-    .coll-cards2,
-    .coll-card1,
-    .cur-cards {
-        flex-direction: column; /* Stack cards vertically */
-    }
+  .coll-cards2, .coll-card1, .cur-cards {
+    flex-direction: column; /* Stack cards vertically */
+  }
 
-    .card-1,
-    .cur-cards-1 {
-        width: 90%; /* Full width with some padding */
-        margin: 10px auto; /* Center cards and add margin */
-    }
+  .card-1, .cur-cards-1, .cur-cards-3 {
+    width: 90%; /* Full width with some padding */
+    margin: 10px auto; /* Center cards and add margin */
+  }
+
+  .call > button {
+    left: 40%; /* Adjust position */
+  }
 }
 
 @media (max-width: 480px) {
-    .collab-text {
-        font-size: 20px;
-        padding: 15px 0;
-    }
+  .collab-text {
+    font-size: 20px;
+    padding: 15px 0;
+  }
 
-    .coll-cards2 > h2,
-    h2 {
-        padding: 20px 0;
-    }
+  .coll-cards2 > h2, h2 {
+    padding: 20px 0;
+  }
 
-    .Card-para,
-    .cur-cards-1 > p {
-        width: 100%; /* Full width for smaller screens */
-        font-size: 14px;
-    }
+  .Card-para, .cur-cards-1 > p, .cur-cards-3 > p {
+    width: 100%; /* Full width for smaller screens */
+    font-size: 14px;
+  }
 
-    .cur-cards-1 > button {
-        font-size: 14px;
-        padding: 10px; /* Adjust padding for smaller buttons */
-    }
+  .cur-cards-1 > button, .cur-cards-3 > button {
+    font-size: 14px;
+    padding: 10px; /* Adjust padding for smaller buttons */
+  }
 
-    .call > button {
-        left: 40%; /* Adjust position */
-    }
+  .call > button {
+    left: 35%; /* Further adjust position for smaller screens */
+  }
 }

@@ -113,7 +113,7 @@ text-align: left;
 
 /* Container and Cards */
 .container-service {
-  margin-left:50px;
+  /* margin-left:50px; */
   background: #FFFFFF;
   display: flex;
   justify-content: center;

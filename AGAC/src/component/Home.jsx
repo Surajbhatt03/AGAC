@@ -2,6 +2,27 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import video from "../../images/video.mp4";
 import SuccessStories from "./SuccessStories";
+import img1 from "./../../images/h1-img.png"
+import img2 from "./../../images/Home1.png"
+import img3 from "./../../images/home2.png"
+import img4 from "./../../images/home3.png"
+import img5 from "./../../images/home4.png"
+import img6 from "./../../images/home5.png"
+import img7 from "./../../images/home6.png"
+import img8 from "./../../images/VegetableInBasketIcon.svg"
+import img9 from "./../../images/ResearchIcon.svg"
+import img10 from "./../../images/home15.png"
+import img11 from "./../../images/home16.png"
+import img12 from "./../../images/home17.png"
+import img13 from "./../../images/home18.png"
+import img14 from "./../../images/home11.png"
+import img15 from "./../../images/home12.png"
+import img16 from "./../../images/home13.png"
+import img17 from "./../../images/home14.png"
+import img18 from "./../../images/home19.png"
+import img19 from "./../../images/home20.png"
+import img20 from "./../../images/home21.png"
+import img21 from "./../../images/home22.png"
 
 const VideoComponent = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -39,10 +60,10 @@ function Home() {
       <section className="hero">
         <div className="hero-content">
           WELCOME TO OUR STATE-OF-THE-ART AQUAPONICS FACILITY
-          <img src="./images/h1-img.png" alt="" />
+          <img src={img1} alt="" />
         </div>
         <div className="hero-image">
-          <img src="./images/Home1.png" alt="Image" />
+          <img src={img2} alt="Image" />
         </div>
         <div className="header-cul">
           <h2>Cultivating a greener Future.</h2>
@@ -59,17 +80,17 @@ function Home() {
           <div className="feature">
             <div className="faci">Facility-1</div>
             <h3>Sustainable Practices</h3>
-            <img src="./images/home2.png" alt="Sustainable Practices" />
+            <img src={img3} alt="Sustainable Practices" />
           </div>
           <div className="feature">
             <div className="faci">Facility-2</div>
             <h3>Automated Monitoring System</h3>
-            <img src="./images/home3.png" alt="Automated Monitoring System" />
+            <img src={img4} alt="Automated Monitoring System" />
           </div>
           <div className="feature">
             <div className="faci">Facility-3</div>
             <h3>Data Analytics and Visualization</h3>
-            <img src="./images/home4.png" alt="Data Analytics and Visualization" />
+            <img src={img5} alt="Data Analytics and Visualization" />
           </div>
         </div>
       </section>
@@ -77,8 +98,8 @@ function Home() {
       <div className="second-block-home">
         <div className="container">
           <div className="imageContainer">
-            <img src="./images/home5.png" alt="Fish Tank" className="mainImage" />
-            <img src="./images/home6.png" alt="Plants" className="subImage" />
+            <img src={img6} alt="Fish Tank" className="mainImage" />
+            <img src={img7} alt="Plants" className="subImage" />
           </div>
           <div className="textContainer">
             <p className="introductions">Our Introductions</p>
@@ -96,11 +117,11 @@ function Home() {
             </p>
             <div className="features">
               <div className="featureItem">
-                <img src="./images/VegetableInBasketIcon.svg" alt="Chemical Free" className="featureIcon" />
+                <img src={img8} alt="Chemical Free" className="featureIcon" />
                 <p>Chemical free vegetables</p>
               </div>
               <div className="featureItem">
-                <img src="./images/ResearchIcon.svg" alt="Genomic Research" className="featureIcon" />
+                <img src={img9} alt="Genomic Research" className="featureIcon" />
                 <p>Genomic Research</p>
               </div>
             </div>
@@ -118,22 +139,22 @@ function Home() {
         <h3>Key technologies</h3>
         <div className="tech-cards">
           <div className="card">
-            <img src="./images/home15.png" alt="Soilless farming" />
+            <img src={img10} alt="Soilless farming" />
             <h4>Soilless farming</h4>
             <button>Read More</button>
           </div>
           <div className="card">
-            <img src="./images/home16.png" alt="Deep Water Culture" />
+            <img src={img11} alt="Deep Water Culture" />
             <h4>Deep Water Culture</h4>
             <button>Read More</button>
           </div>
           <div className="card">
-            <img src="./images/home17.png" alt="Year-Round Production" />
+            <img src={img12} alt="Year-Round Production" />
             <h4>Year-Round Production</h4>
             <button>Read More</button>
           </div>
           <div className="card">
-            <img src="./images/home18.png" alt="Genomics Integration" />
+            <img src={img13} alt="Genomics Integration" />
             <h4>Genomics Integration</h4>
             <button>Read More</button>
           </div>
@@ -153,25 +174,25 @@ function Home() {
           <VideoComponent />
           <div className="img-4">
             <div className="img1">
-              <img src="./images/home11.png" alt="" />
+              <img src={img14} alt="" />
               <div className="imgtext">
                 <h4>Grow Bed and Plant System</h4>
               </div>
             </div>
             <div className="img2">
-              <img src="./images/home12.png" alt="" />
+              <img src={img15} alt="" />
               <div className="imgtext">
                 <h4>Harvesting and Processing Area</h4>
               </div>
             </div>
             <div className="img2">
-              <img src="./images/home13.png" alt="" />
+              <img src={img16} alt="" />
               <div className="imgtext">
                 <h4>Automated Monitoring System</h4>
               </div>
             </div>
             <div className="img2">
-              <img src="./images/home14.png" alt="" />
+              <img src={img17} alt="" />
               <div className="imgtext">
                 <h4>Fish Tanks and Biofilters</h4>
               </div>
@@ -191,7 +212,7 @@ function Home() {
           >
             Fish Tanks and Biofilters
           </span>
-          <img src="./images/home19.png" alt="" />
+          <img src={img18} alt="" />
         </div>
         <div className="five-text">
           <div className="title-5">
@@ -228,7 +249,7 @@ function Home() {
         <h1>News & Articles</h1>
         <div className="articles-container">
           <div className="article">
-            <img src="./images/home20.png" alt="Sustainable farming" />
+            <img src={img19} alt="Sustainable farming" />
             <div className="article-content">
               <div className="article-date">05 July 2022</div>
               <div className="article-author">By Ron Martin</div>
@@ -236,7 +257,7 @@ function Home() {
             </div>
           </div>
           <div className="article">
-            <img src="./images/home21.png" alt="Advanced technologies" />
+            <img src={img20} alt="Advanced technologies" />
             <div className="article-content">
               <div className="article-date">19 June 2022</div>
               <div className="article-author">By Jane Doe</div>
@@ -244,7 +265,7 @@ function Home() {
             </div>
           </div>
           <div className="article">
-            <img src="./images/home22.png" alt="Year-round production" />
+            <img src={img21} alt="Year-round production" />
             <div className="article-content">
               <div className="article-date">10 May 2022</div>
               <div className="article-author">By John Smith</div>

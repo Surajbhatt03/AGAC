@@ -131,7 +131,7 @@ function Research() {
           <h1 className="text-2xl text-white">Ongoing Projects </h1>
         </div>
 
-        <div className="bg-customPinkbg" style={{ height: "540px" }}>
+        <div className="bg-customPinkbg" style={{ height: "600px" }}>
           <div className="cur-cards">
             <div className="cur-cards-1">
               <img src={Res1} alt="" />
@@ -297,7 +297,7 @@ function Research() {
                 fontWeight: "bold",
                 color: "rgb(135, 134, 128)",
                 width: "50vw",
-                margin: "0 auto", 
+                margin: "0 auto",
                 gap: "20px"
               }}
             >
@@ -311,7 +311,7 @@ function Research() {
                 AGAC's research facilities. Explore specific labs through these
                 detailed videos:
               </p>
-              <ul style={{ listStyleType: "disc", paddingLeft: "20px",color:"rgb(59, 130, 246) " }}>
+              <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "rgb(59, 130, 246) " }}>
                 {" "}
                 {/* Ensure list has bullets */}
                 <li><a href="#">Genomics Lab Video</a></li>
@@ -343,7 +343,7 @@ function Research() {
           <div className="cur-cards">
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res3} alt="" />
               <h2 style={{ padding: "10px" }}>
@@ -361,7 +361,7 @@ function Research() {
             </div>
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res4} alt="" />
               <h2 style={{ padding: "10px" }}>
@@ -379,7 +379,7 @@ function Research() {
             </div>
             <div
               className="cur-cards-1"
-              style={{ height: "400px", width: "300px" }}
+              style={{ height: "450px", width: "320px" }}
             >
               <img src={Res5} alt="" />
               <h2
