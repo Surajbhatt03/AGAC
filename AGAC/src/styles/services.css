@@ -213,6 +213,8 @@ text-align: right;
 .video-container {
   position: relative;
   width: 100%;
+  margin-bottom: 0%;
+ 
 }
 
 .img-fluid {
@@ -231,6 +233,8 @@ text-align: right;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+ 
+ 
 }
 
 .play-button {
@@ -246,7 +250,7 @@ text-align: right;
 
 .bg-success {
   background-color: #4BAF47 !important;
-  width: 99.7vw;
+  width: 80.7vw;
   color: white;
   display: flex;
   flex-direction: column; 
@@ -255,6 +259,7 @@ text-align: right;
   font-family: 'Pacifico', cursive;
   text-align: center;
   position: relative;
+  height:100%;
 }
 
 .text-light {

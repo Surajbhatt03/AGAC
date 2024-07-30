@@ -105,8 +105,8 @@ function Home() {
               </div>
             </div>
             <ul className="list">
-              <li> <span class="green-tick">&#x2705;</span>Lorem Ipsum is not simply random text.</li>
-              <li> <span class="green-tick">&#x2705;</span>Making this the first true generator on the internet.</li>
+              <li> <span class="green-tick">&#x2705;</span>Our technology is not just random innovation. It’s based on years of scientific research and real-world applications.</li>
+              <li> <span class="green-tick">&#x2705;</span>As pioneers in this field, we are the first to bring such a comprehensive and integrated approach to food production on the internet.</li>
             </ul>
             <button className="button">Discover More</button>
           </div>
