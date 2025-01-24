@@ -1,1 +1,1 @@
-Aquatech Genomic Agriculture Center (AGAC) 
+Aquatech Genetic AI Labs (AGAL) 
