@@ -1,0 +1,403 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gradient-background {
+  background: linear-gradient(to right, #4BAF47 0%, #1F491E 100%);
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.header h1 {
+  margin-top: 0rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Aquaculture Section */
+.aquaculture-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  margin-top: 70px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.aquaculture-section .image,
+.aquaculture-section .content {
+  flex: 1;
+  padding: 1rem;
+}
+
+.image {
+  max-width: 50%;
+}
+
+.image img {
+  margin-top: 10vw;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border: 1px solid #000000;
+}
+
+.content {
+  max-width: 50%;
+  padding-left: 2rem;
+}
+
+.whatwedo {
+  color: #EEC044;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 2rem;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.content h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1F1E17;
+  line-height: 3rem;
+}
+
+.services {
+  margin-top: 1rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+.service {
+  margin-bottom: 1rem;
+}
+
+.service h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.service ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service ul li {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: #731717;
+  margin-bottom: 0.25rem;
+}
+
+.service ul li::before {
+  content: '•';
+  color: #731717;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Container and Cards */
+.container-service {
+  background: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-x {
+  border: 1px solid #5fce14;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  /* Set a fixed height */
+  box-sizing: border-box;
+  /* Ensure padding and borders are included in the height */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+  flex: 1;
+}
+
+.card-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+}
+
+.card-title-precision {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+}
+
+.card-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  color: #8B8982;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #4BAF47;
+  border-color: #4BAF47;
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #b6dc0c;
+  border-color: #b6dc0c;
+}
+
+/* Video Section */
+.vid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.video-thumbnail {
+  position: relative;
+  cursor: pointer;
+}
+
+.video-thumbnail img {
+  display: block;
+  width: 100%;
+  max-width: 880px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.vid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.play-button {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+/* Background Section */
+.bg-success {
+  background-color: #4BAF47;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text-light {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 2.8125rem;
+  color: #e9c46a;
+  text-transform: uppercase;
+}
+
+.text-l {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+  word-spacing: 2px;
+  color: #dfdcd5;
+  text-transform: uppercase;
+}
+
+.btn-warning {
+  background-color: #e9c46a;
+  border-color: #e9c46a;
+  border-radius: 0.5rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-warning:hover {
+  /* background-color: #d6b04b; */
+  border-color: #d6b04b;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .aquaculture-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image,
+  .content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .aquaculture-section {
+    padding: 0.5rem;
+    margin: 0;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    padding: 0.5rem;
+  }
+
+  .whatwedo,
+  .content h3 {
+    font-size: 1.5rem;
+  }
+
+  .service ul li {
+    font-size: 0.875rem;
+  }
+
+  .container-service {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .card-x {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .btn-primary {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn-warning {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+  }
+
+  .aquaculture-section {
+    padding: 0.25rem;
+  }
+
+  .whatwedo,
+  .content h3 {
+    font-size: 1.25rem;
+  }
+
+  .service ul li {
+    font-size: 0.75rem;
+  }
+
+  .container-service {
+    gap: 0.5rem;
+  }
+
+  .btn-primary,
+  .btn-warning {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Card Hover Effect */
+.card-x:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}

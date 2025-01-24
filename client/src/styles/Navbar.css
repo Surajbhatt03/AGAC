@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Navbar styles */
+.Navbar {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+.Navbar-1 {
+    display: flex;
+    height: 115.5px;
+    max-width: 1200px;
+    justify-content: space-between; /* Distribute space between logo and other elements */
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto; /* Center the logo */
+}
+
+.logo img {
+    max-width: 20%; 
+    height: auto;    
+    margin-bottom: 15px; 
+}
+
+.ele {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ele > a {
+    width: 40px;
+    height: 40px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: space-around; /* Distribute links across the navbar */
+    width: 100%;
+}
+
+.nav li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+    column-gap: 25px;
+}
+
+.head1 {
+    font-size: small;
+    color: #878680;
+}
+
+.nav {
+    display: flex;
+    padding: 0 100px;
+    height: 79px;
+    background-color: #fbf8ee;
+    font-family: 'Manrope';
+    align-items: center;
+    width: 100%; /* Ensure the nav takes full width */
+    justify-content: space-around; /* Distribute nav items across the full width */
+}
+
+.Navbar-2 {
+    list-style: none;
+    display: flex; /* Ensure it's visible on large screens */
+    flex-direction: row; /* Default to horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    justify-content: center; /* Center the links horizontally */
+}
+
+.Navbar-2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; /* Position to the extreme right */
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .Navbar-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .ele,
+    .contact-us {
+        display: none; /* Hide logos and contact info */
+    }
+
+    .nav {
+        flex-direction: column; /* Stack nav items vertically */
+        padding: 0;
+        background-color: #fbf8ee; /* Ensure the background color extends */
+        width: 100%;
+        z-index: 1;
+        justify-content: center; /* Center the nav items */
+        height:170px;
+    }
+
+    .nav ul {
+        display: flex; /* Ensure links are displayed flexibly */
+        flex-direction: row; /* Display links horizontally */
+        flex-wrap: wrap; /* Allow wrapping if there are too many links */
+        justify-content: center; /* Center the links */
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        margin: 5px; /* Reduce margin for better spacing */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .nav a {
+        font-size: 14px; /* Adjust font size */
+        padding: 5px 10px; /* Add padding for better touch targets */
+    }
+
+    .nav-toggle {
+        display: block; /* Show toggle button */
+        right: 10px; /* Position the toggle button further to the right */
+        top: 20px; /* Position the toggle button further down */
+    }
+
+    .Navbar-2 {
+        display: none; /* Hide by default */
+        flex-direction: row; /* Ensure links are displayed horizontally */
+    }
+
+    .Navbar-2.visible {
+        display: flex; /* Show when visible */
+    }
+}
+
+@media (max-width: 480px) {
+    .Navbar-1 {
+        padding: 10px 0;
+    }
+
+    .logo {
+        margin: 0 0 10px 0;
+    }
+
+    .nav {
+        padding: 0 20px; /* Ensure padding on small screens */
+    }
+
+    .nav ul {
+        flex-direction: row; /* Ensure links are displayed horizontally */
+        align-items: center;
+    }
+
+    .nav li {
+        margin: 5px;
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .nav a {
+        font-size: 12px; /* Further reduce font size */
+        padding: 5px 8px; /* Adjust padding for better fit */
+    }
+
+    .ele,
+    .contact-us {
+        display: none; /* Hide logos and contact info */
+    }
+
+    .nav-toggle {
+        display: block; /* Show toggle button */
+        right: 10px; /* Position the toggle button further to the right */
+        top: 20px; /* Position the toggle button further down */
+    }
+}
+
+/* Navbar link styles */
+.nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav a.active {
+    color: #ff5722; /* Highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #ff5722; /* Underline effect */
+}
+
+.nav a:hover {
+    color: #ff5722; /* Highlight color on hover */
+}

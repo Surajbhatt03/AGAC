@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AGAL</title>
+    <script src="https://accounts.google.com/gsi/client" async defer onload="document.dispatchEvent(new Event('google-loaded'))"></script>
+    <!-- testing jeetsimeet link -->
+    <script src='https://8x8.vc/vpaas-magic-cookie-8cb41840f0b3445ea905ae61a9fa3959/external_api.js' async></script>    <style>html, body, #jaas-container { height: 100%; }</style>
+    <!-- Custom chatbot code -->
+    <script type="text/javascript">
+      (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '66c361e230d9addbe833fbcb' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

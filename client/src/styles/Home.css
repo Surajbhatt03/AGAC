@@ -1,0 +1,31 @@
+.home-video-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .home-video-container video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #eec044;
+    border-radius: 8px;
+  }
+  
+  .home-video-text {
+    position: absolute;
+    top: 0; /* Adjust this value as needed */
+    left: 70px; /* Adjust this value as needed */
+    /* background-color: rgba(0, 0, 0, 0.6); Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 30px; /* Adjust text size as needed */
+    /* font-weight: bold; */
+  }
+  
+    /* #home-aboveExploreProject{
+      background-color: #4BAF47;
+    } */

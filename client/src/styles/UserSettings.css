@@ -1,0 +1,163 @@
+/* User Settings Page Styling */
+.settings-container {
+  max-width: 750px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 2px solid #e6e6e6;
+}
+
+.settings-container h2 {
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-form label {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.settings-form input[type="text"],
+.settings-form input[type="email"],
+.settings-form input[type="password"],
+.settings-form input[type="file"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.settings-form input[type="text"]:focus,
+.settings-form input[type="email"]:focus,
+.settings-form input[type="password"]:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+  outline: none;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #4caf50;
+}
+
+.profile-image-container input[type="file"] {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.settings-form button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+}
+
+.settings-form button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.settings-form button:active {
+  transform: translateY(1px);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  width: 48%;
+}
+.edit-button {
+  width: 18%; /* Adjust the width to your preference */
+}
+.settings-container .edit-button {
+  width: 18%; /* Adjust the width as needed */
+  margin-top: 6px;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .settings-container {
+    padding: 20px;
+  }
+
+  .settings-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .settings-form input[type="text"],
+  .settings-form input[type="email"],
+  .settings-form input[type="password"],
+  .settings-form input[type="file"] {
+    font-size: 0.95rem;
+  }
+
+  .settings-form button {
+    font-size: 1rem;
+  }
+
+  .button-container button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .settings-container {
+    padding: 15px;
+  }
+
+  .settings-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .settings-form input[type="text"],
+  .settings-form input[type="email"],
+  .settings-form input[type="password"],
+  .settings-form input[type="file"] {
+    font-size: 0.9rem;
+  }
+
+  .settings-form button {
+    font-size: 0.95rem;
+  }
+}
